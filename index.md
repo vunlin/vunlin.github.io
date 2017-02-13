@@ -1,3 +1,5 @@
+<title>love2017.life</title>
+
 # 网站内容方向
 
 1. 世界在如何运转
