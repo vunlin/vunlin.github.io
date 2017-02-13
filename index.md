@@ -1,7 +1,7 @@
-# Hello world
+# 网站内容方向
 
-this marks the begining of my life's work.
+1. 世界在如何运转
 
-it seem to works now
+2. 英语分析和学习
 
-### and it is working? I will know by tomorrow
+3. 网站前端技术学习和分享
