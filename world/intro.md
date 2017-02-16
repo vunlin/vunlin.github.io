@@ -8,18 +8,29 @@
 
 要完全了解一种事物，没有比从它起源时间开始更好的方法了，那在人类踏足纽约曼哈顿之前，这片土地又是怎么样的一个情景呢？我在纽约市时不时会看见房子重建和道路翻修，在这些房子和道路下面都只是一些沙石混合物，连泥土都几乎没有，难道纽约曼哈顿就是这样只有沙石的土地，当然不可能，中央公园这么大的植被茂盛的区域不可能被只有沙石的土地包围着。下面我们看一下在人类涉足纽约曼哈顿之前的在1600年左右的图片展示图。
 
+***
+
 <img src="/assets/image/world/manhattan_sidebyside.jpg" />
 <img src="/assets/image/world/manhattan_halfandhalf.jpg" />
 
+***
 
 很不可思议对吧，或者你不相信，也对，这么久以前，人类的科技根本就不可能通过照片记录下纽约曼哈顿。其实上面的照片是根据生物，植被，土壤的分布研究后由地理生态学家Eric Sanderson做的人为推测建模。那这个可信吗？当然不会100%没有出入，我们还没有发明时光机，还不能回到以前去看看当时是什么样子的。以下就是Eric Sanderson在TED的演讲和展示。
 
+***
+
 <iframe src="https://embed.ted.com/talks/eric_sanderson_pictures_new_york_before_the_city" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+***
 
 当时没有照片，却有油画，在视频当中也有展示，我们看看当时和现在的区别。油画是 john james audubon 在今天west 125th street 西125街，朝着同一个方向在 george washington bridge 华盛顿大桥还没建之前的时候画的 在油画下面是同个地点用google地图截图的照片，你可以看到远处华盛顿大桥的轮廓。
 
+***
+
 <img src="/assets/image/world/125th_when_bridge_not_there_yet.png" />
 <img src="/assets/image/world/Piers_Google Maps.png" />
+
+***
 
 来到纽约曼哈顿，殖民者就开始建造房子和道路。你是否看过西部片那些酒馆前的道路都是灰尘飘扬，下过雨后就泥泞不堪，那是因为他们那个时候的道路修建技术还不行，把土路整平坦就不错了，现在的道路都是水泥或者沥青混合物。开始建造房子和道路之前，要清理你要建造地方的树木和任何障碍物。
 
