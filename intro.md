@@ -70,16 +70,3 @@ other planet is fine without reciving sunlight, but it is only suitable for rock
 ****** 给我朋友看文章，看看他们有没有什么想要了解的问题.
 
 simcity, play that
-
-
-what now：
-
-more on city
-clothes
-Earth
-Entertainment
-Food
-Housing
-Medicine
-Money
-Transportation
