@@ -1,4 +1,27 @@
+header {
+	border-bottom:0px;
+}
+header h1, header h2, #downloads {
+	display:none;
+}
+nav ul {
+	position:relative;
+	top:-20px;
+}
 nav ul li {
+	display:inline-block;
 	float:left;
-	list-style: none;	
+	width:100px;
+}
+
+nav ul li:before {
+	content: "";
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:orange;
 }
