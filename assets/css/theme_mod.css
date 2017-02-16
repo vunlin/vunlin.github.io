@@ -18,10 +18,10 @@ nav ul li:before {
 	content: "";
 }
 
-nav ul li a {
+a {
 	text-decoration: none;
 }
 
-nav ul li a:hover {
+a:hover {
 	color:orange;
 }
