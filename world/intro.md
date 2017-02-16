@@ -18,7 +18,7 @@
 
 当时没有照片，却有油画，在视频当中也有展示，我们看看当时和现在的区别。油画是 john james audubon 在今天west 125th street 西125街，朝着同一个方向在 george washington bridge 华盛顿大桥还没建之前的时候画的 在油画下面是同个地点用google地图截图的照片，你可以看到远处华盛顿大桥的轮廓。
 
-<img src="/assets/image/world/125th_when_bridge_not_there_yet.jpg" />
+<img src="/assets/image/world/125th_when_bridge_not_there_yet.png" />
 <img src="/assets/image/world/Piers_Google Maps.png" />
 
 来到纽约曼哈顿，殖民者就开始建造房子和道路。你是否看过西部片那些酒馆前的道路都是灰尘飘扬，下过雨后就泥泞不堪，那是因为他们那个时候的道路修建技术还不行，把土路整平坦就不错了，现在的道路都是水泥或者沥青混合物。开始建造房子和道路之前，要清理你要建造地方的树木和任何障碍物。
