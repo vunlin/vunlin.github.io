@@ -17,6 +17,10 @@ nav ul li {
 nav ul li:before {
 	content: "";
 }
+nav img {
+	width:16px;
+	height:16px;
+}
 
 a {
 	text-decoration: none;
