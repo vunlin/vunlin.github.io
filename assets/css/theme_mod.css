@@ -14,7 +14,7 @@ nav ul li {
 	width:100px;
 }
 
-nav ul li:before {
+ul li:before {
 	content: "";
 }
 nav img {
