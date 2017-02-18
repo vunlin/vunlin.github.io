@@ -19,3 +19,7 @@
 1. <a href="/world/planets">地球与外太空(未开始)</a>
 
 1. <a href="/world/education">各门科学与其相关应用范围(未开始)</a>
+
+1. <a href="/world/howitsmade">这些个东西是怎么做的</a>
+	1. <a href="/world/howitsmade/road">道路</a>
+	1. <a href="/world/howitsmade/house">房子</a>
