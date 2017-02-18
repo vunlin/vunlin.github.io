@@ -2,7 +2,7 @@
 
 1. <a href="/movie">电影</a>
 	1. <a href="/movie/Detachment(2011)">Detachment(2011)</a>
-	
+
 1. <a href="/tv">电视</a>
 	1. Fargo
 		1.  <a href="/tv/Fargo/S01E01">S01E01</a>
@@ -52,9 +52,9 @@
 
 1. <a href="/game">游戏Dota2英雄</a>
 	1. Strength - 力量型
-		- <a href="English/Game/Earthshaker>Earthshaker</a>
-		  <a href="English/Game/Sven>Sven</a>
-		  <a href="English/Game/Tiny>Tiny</a>
+		- <a href="English/Game/Earthshaker">Earthshaker</a>
+		  <a href="English/Game/Sven">Sven</a>
+		  <a href="English/Game/Tiny">Tiny</a>
 	2. Agility - 敏捷性
 
 	3. Intelligent - 智力型
