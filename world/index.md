@@ -27,12 +27,12 @@
 1. <a href="/world/education">各门科学与其相关应用范围</a>
 
 1. #### 东西是怎么制造的
-	- <a href="/world/howitsmade/road">道路</a>
-	<a href="/world/howitsmade/house">房子</a>
-	<a href="/world/howitsmade/cement">水泥</a>
-	<a href="/world/howitsmade/asphalt">沥青</a>
-	<a href="/world/howitsmade/hardwood_floor">地板</a>
-	<a href="/world/howitsmade/brick">砖头</a>
+	-   <a href="/world/howitsmade/road">道路</a>
+	    <a href="/world/howitsmade/house">房子</a>
+		<a href="/world/howitsmade/cement">水泥</a>
+		<a href="/world/howitsmade/asphalt">沥青</a>
+		<a href="/world/howitsmade/hardwood_floor">地板</a>
+		<a href="/world/howitsmade/brick">砖头</a>
 	
 	
 	
