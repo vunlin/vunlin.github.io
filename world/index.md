@@ -2,7 +2,9 @@
 
 1. <a href="/world/city">从城市开始讲起(完成第一版)</a>
 
-1. <a href="/world/utility">房子和能源设施(供水，煤气，电力)</a>
+1. <a href="/world/building">房子是怎么建造的</a>
+
+1. <a href="/world/utility">能源设施(供水，煤气，电力)</a>
 
 1. <a href="/world/enviorment">环保和公共设施(垃圾回收，道路清洁和维护，下水道系统，公园)</a>
 
