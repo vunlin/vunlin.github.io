@@ -19,12 +19,13 @@ A self-portrait taken by Steve Duncan in New York City's Croton Aqueduct, from N
 
 为什么煤气灶的火不会倒流到供应管道，引起爆炸？因为单单只有天然气是不会燃烧的，需要和空气混合，才可以点燃。因为气体压力的原因，空气是不会进入天然气管道，所以火是不会点燃在管道中的天然气。
 
+### 一些想法
+
 供水和供气性质相近，都是通过压力供应，所以在家里打开水阀和气阀，水和气就会出来，也不会倒流回去。而电力从高电压流向低电压，也是通过类似的性质来供应电力。
 
 参考资料
 
 https://en.wikipedia.org/wiki/Collect_Pond
-
 https://en.wikipedia.org/wiki/New_York_City_water_supply_system
 
 http://www.amny.com/lifestyle/how-nyc-gets-its-water-1.9205765
