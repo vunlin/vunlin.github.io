@@ -23,7 +23,7 @@ A self-portrait taken by Steve Duncan in New York City's Croton Aqueduct, from N
 
 供水和供气性质相近，都是通过压力供应，所以在家里打开水阀和气阀，水和气就会出来，也不会倒流回去。如果阀门出现问题，就会出现泄露的问题。电力从高电压流向低电压，也是通过类似的性质来供应电力。
 
-参考资料
+### 参考资料
 
 https://en.wikipedia.org/wiki/Collect_Pond
 https://en.wikipedia.org/wiki/New_York_City_water_supply_system

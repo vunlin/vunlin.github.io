@@ -38,6 +38,6 @@
 现在更先进的系统使用Tuned Liquid Damper, 利用水摆动的特性更好的提高抗摆动效果，原理都差不多，你想知道更多的话可以自己上网搜索。
 
 
-参考资料
+### 参考资料
 
 https://www.reddit.com/r/askscience/comments/40bs1x/is_there_a_height_limit_to_building_skyscrapers/

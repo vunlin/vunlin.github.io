@@ -6,7 +6,7 @@
 
 1. <a href="/world/utility">能源设施(供水，电力，天然气)</a>
 
-1. <a href="/world/enviorment">环保和公共设施(垃圾回收，道路清洁和维护，下水道系统，公园)</a>
+1. <a href="/world/environment">环保和公共设施(废水系统，垃圾回收，道路清洁和维护，公园和运动设施)</a>
 
 1. <a href="/world/transportation">交通设施(道路，桥梁，隧道，码头，地铁，巴士，海运，空运与对外连接)</a>
 
