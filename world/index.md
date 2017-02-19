@@ -1,6 +1,6 @@
 ### 世界是如何运作
 
-1. <a href="/world/city">从城市开始讲起(完成第一版)</a>
+1. <a href="/world/city">从城市开始讲起</a>
 
 1. <a href="/world/building">房子是怎么建造的</a>
 
