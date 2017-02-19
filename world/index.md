@@ -1,6 +1,6 @@
 ### 世界是如何运作
 
-1. <a href="/world/city">从城市开始讲起</a>
+1. <a href="/world/city">从纽约市开始讲起</a>
 
 1. <a href="/world/building">房子是怎么建造的</a>
 
@@ -8,7 +8,7 @@
 
 1. <a href="/world/environment">环保和公共设施(废水系统，垃圾回收，道路清洁和维护，公园和运动设施)</a>
 
-1. <a href="/world/transportation">交通设施(道路，桥梁，隧道，码头，地铁，巴士，海运，空运与对外连接)</a>
+1. <a href="/world/transportation">交通设施(道路，桥梁，隧道，港口，铁路，机场)</a>
 
 1. <a href="/world/communication">通讯设施(电话，电视，网络，手机基地台)</a>
 
@@ -18,23 +18,25 @@
 
 1. <a href="/world/entertainment">各种服务业和娱乐业</a>
 
-***
-
-1. <a href="/world/money">金钱，GDP, 汇率，金融机构和世界经济</a>
-
 1. <a href="/world/resource">资源是否会耗尽</a>
 
-1. <a href="/world/planets">地球与外太空</a>
+1. <a href="/world/planets">地球, 卫星与外太空</a>
 
 1. <a href="/world/education">各门科学与其相关应用范围</a>
 
 1. #### 东西是怎么制造的
-	-   <a href="/world/howitsmade/road">道路</a>
-	    <a href="/world/howitsmade/house">房子</a>
-		<a href="/world/howitsmade/cement">水泥</a>
+	-	<a href="/world/howitsmade/cement">水泥</a>
 		<a href="/world/howitsmade/asphalt">沥青</a>
 		<a href="/world/howitsmade/hardwood_floor">地板</a>
 		<a href="/world/howitsmade/brick">砖头</a>
-	
-	
-	
+
+***
+
+### 衔接所有物质产品的纽带 - 金钱
+
+1. <a href="/money/city">还从纽约市开始讲起</a>
+
+1. <a href="/world/money">金钱，GDP, 汇率，金融机构和世界经济</a>
+
+
+		
