@@ -1,25 +1,12 @@
+### 资源是否会耗尽
 
-### sustainability:
+通过能量守恒定律，一种能源转换成另一种能源，再加上物质没有办法脱离地球的吸引力，资源是不会耗尽的，只会以不同的比例存在。
 
-oxygen: through plant and sun 光合作用
+比如光合作用，生物的二氧化碳被植物吸收转化为氧气，而生物吸收氧气呼出二氧化碳，只是比例的变化而已。如果大城市植物不够多，人口又太密集，那二氧化碳比例就比其他地区高，空气自然就不好。顺便提一下，植物没有二氧化碳活不下去。
 
-BUT if human overpoplution super exceed the plant, the oxygen level could get low enough to cause death
+有比如饮用水，通过大自然的循环，我们排出的污水，最后又会回到水源处，只是如果城市人类消耗水源的速度，快于循环的速度，如果没有找到额外的水源或者加快循环的速度，不能保持平衡，那越来越多比例的水，就会以污水的形式存在。
 
-such as New Delhi, Beijing, Shanghai etc air pollution problem.
+### 参考资料
 
-water: sun evaporate dirty water and turn them into rain and fresh water
-
-energy: from sun
-
-material: all the desired material can be created through using energy from sun with chemical process. alchemstry, medicine whatnot.
-
-### 能量守恒定律:
-
-Earth need sun to create a livable enviorment for human, and all these organic beings.
-
-other planet is fine without reciving sunlight, but it is only suitable for rocks, apparently.
-
-*** Add above theory, enough to make it a chapter, or a essay, easy and fun, and relevent enough..
-
-*** Above theory is actually very anturally thinking, things below are just expandation
+http://hydrogenn12.imascientist.ie/2012/11/16/would-trees-die-without-carbon-dioxide/
 
