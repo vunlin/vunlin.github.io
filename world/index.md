@@ -32,7 +32,7 @@
 
 1. <a href="/money/city">还从纽约市开始讲起</a>
 
-1. <a href="/world/money">金钱，GDP, 汇率，金融机构和世界经济</a>
+1. <a href="/money/exchange">金钱，GDP, 汇率，金融机构和世界经济</a>
 
 
 		
