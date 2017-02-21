@@ -22,7 +22,8 @@
 
 1. <a href="/world/planets">地球, 卫星与外太空</a>
 
-1. #### 东西是怎么制造的
+### 东西是怎么制造的
+
 - <a href="/world/howitsmade/cement">水泥</a>
   <a href="/world/howitsmade/asphalt">沥青</a>
   <a href="/world/howitsmade/hardwood_floor">地板</a>
