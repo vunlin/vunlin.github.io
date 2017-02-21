@@ -10,3 +10,4 @@
 
 http://hydrogenn12.imascientist.ie/2012/11/16/would-trees-die-without-carbon-dioxide/
 
+https://www.reddit.com/r/explainlikeimfive/comments/1xw2km/eli5_why_do_many_rivers_never_seem_to_dry_up/
