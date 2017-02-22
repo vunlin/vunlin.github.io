@@ -1,6 +1,6 @@
 ### 人类世界是如何运作
 
-1. <a href="/world/money">金钱是什么</a>
+1. <a href="/world/money">现代的金钱是什么</a>
 
 1. <a href="/world/city">从纽约市开始讲起</a>
 
