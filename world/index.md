@@ -28,4 +28,5 @@
   <a href="/world/howitsmade/asphalt">沥青</a>
   <a href="/world/howitsmade/hardwood_floor">地板</a>
   <a href="/world/howitsmade/brick">砖头</a>
+  <a href="/world/howitsmade/glass">玻璃</a>
 		
