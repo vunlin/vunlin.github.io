@@ -59,10 +59,14 @@ a:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) {
     /* For mobile phones: */
     .container {
         width: 95%;
         font-size:90%;
     }
+
+    nav ul li {
+		width:80px;
+	}
 }
