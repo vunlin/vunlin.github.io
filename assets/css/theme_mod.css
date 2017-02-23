@@ -37,3 +37,17 @@ a:hover {
 .container {
 	max-width:800px;
 }
+
+@media (max-width: 800px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+}
