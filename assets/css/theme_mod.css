@@ -59,7 +59,7 @@ a:hover {
     }
 }
 
-@media (max-width: 240px) {
+@media (max-width: 400px) {
     /* For mobile phones: */
     
     .container {
@@ -72,8 +72,8 @@ a:hover {
 		padding:4px;
 	}
     nav ul li {
-    	font-size:90%;
-		width:68px;
+    	font-size:80%;
+		width:60px;
 	}
 	nav img {
 		width:12px;
