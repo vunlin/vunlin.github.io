@@ -67,6 +67,7 @@ a:hover {
     }
 
     nav ul li {
-		width:80px;
+    	font-size:85%;
+		width:60px;
 	}
 }
