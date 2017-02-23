@@ -19,7 +19,9 @@
 
 ***
 
-<iframe src="https://embed.ted.com/talks/eric_sanderson_pictures_new_york_before_the_city" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="videoWrapper">
+	<iframe src="https://embed.ted.com/talks/eric_sanderson_pictures_new_york_before_the_city" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
 
 ***
 

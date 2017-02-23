@@ -8,7 +8,9 @@
 
 人造卫星通过太阳能电板来保持电源，而军事卫星一般都有核能电池来保证持久和稳定性。人造卫星通过电磁波与地面基地保持联系，传递信息。
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/IC1JQu9xGHQ" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper">
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/IC1JQu9xGHQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### 参考资料
 

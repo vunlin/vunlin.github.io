@@ -32,8 +32,9 @@
 <img src="/assets/image/world/Tuned_mass_damper_-_Taipei_101.jpg" />
 
 一般都放于顶端处的位置，通过调节这个球体重量，和它的摆动频率就可以起到明显的抗摆动效果。关于原理，你可以看下面这个相关的视频。这种系统对建筑结构坚固度没有多大作用，但是可以让住户舒服很多。
-
-<iframe width="854" height="480" src="https://www.youtube.com/embed/f1U4SAgy60c" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper">
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/f1U4SAgy60c" frameborder="0" allowfullscreen></iframe>
+</div>
 
 现在更先进的系统使用Tuned Liquid Damper, 利用水摆动的特性更好的提高抗摆动效果，原理都差不多，你想知道更多的话可以自己上网搜索。
 
