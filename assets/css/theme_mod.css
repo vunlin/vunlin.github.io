@@ -34,6 +34,20 @@ a:hover {
 	font-size: 16px; 
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .container {
 	max-width:800px;
 }
@@ -41,13 +55,14 @@ a:hover {
 @media (max-width: 800px) {
     /* For mobile phones: */
     .container {
-        width: 100%;
+        width: 95%;
     }
 }
 
 @media (max-width: 480px) {
     /* For mobile phones: */
     .container {
-        width: 100%;
+        width: 95%;
+        font-size:90%;
     }
 }
