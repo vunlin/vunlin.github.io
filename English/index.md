@@ -1,7 +1,7 @@
 ### 英语文章解析和翻译
 
 1. <a href="/movie">电影</a>
-	1. <a href="/movie/Detachment(2011)">Detachment(2011)</a>
+	1. <a href="/movie/Detachment-2011">Detachment (2011)</a>
 
 1. <a href="/tv">电视</a>
 	1. Fargo
