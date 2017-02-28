@@ -1,0 +1,93 @@
+body {padding: 20px;}
+
+#tooltip {
+	position: absolute;
+	display:none;
+	background: #333;
+	color:white;
+	padding:5px;
+}
+#plot {width: 100%; margin:0 auto;}
+p {line-height: 200%; position: relative;}
+p span {font-style: normal;position: relative;}
+
+.vaid {
+    width:100%;
+    height:25px;
+    display:inline-block;
+    position: absolute;
+    top:8px;
+    left:50%;
+    font-size:9px;
+    color:#1b1b1b;
+    font-style: normal;
+}
+
+.vaid:hover{
+    color:#FFF;
+    visibility: visible;
+}
+
+span.alone b{
+    content: "";
+    width:80%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    bottom:-5px;
+    left:10%;
+    border-bottom:2px solid orange;
+    border-left:2px solid orange;
+    border-right:2px solid orange;
+}
+span.alone i{
+    content: "";
+    width:80%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    top:-5px;
+    left:10%;
+    border-top:2px solid red;
+    border-left:2px solid red;
+    border-right:2px solid red;
+}
+
+span.head i {
+    content: "";
+    width:90%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    top:-5px;
+    left:10%;
+    border-top:2px solid red;
+    border-left:2px solid red;
+}
+
+span.cross i {
+    content: "";
+    width:100%;
+    height:50px;
+    display:inline-block;
+    position: absolute;
+    top:-5px;
+    left:0px;
+    border-top:2px solid red;
+
+}
+span.tail i {
+    content: "";
+    width:90%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    top:-5px;
+    right:10%;
+    border-top:2px solid red;
+    border-right:2px solid red;
+}
+
+span i:hover{
+    cursor:pointer;
+}
