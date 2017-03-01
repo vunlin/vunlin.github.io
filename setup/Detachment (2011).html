@@ -28,6 +28,9 @@
 <div class="container">
   <section id="main_content">
 	<div id="tooltip"></div>
+	<div id="toolbar">
+		<button id="toggleNote">show|hide note</button>
+	</div>
 	<div id="plot">
 		<p>Detachment is a 2011 American drama film about the high school education system directed by Tony Kaye, starring Adrien Brody with an ensemble supporting cast.</p>
 
@@ -41,6 +44,7 @@
   </section>
   <script>
   	var note = {};
+  	note["status"] = "dev";
 	note[1] = {};
 	note[1]['structure'] = {
 		'1' : 's',

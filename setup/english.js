@@ -159,6 +159,10 @@ var showNote = function(){
 	});
 }
 
+var hideNote = function(){
+	$("#plot p span b").removeAttr().removeClass();
+	$("#plot p span i").removeAttr().removeClass();
+}
 // prepare plot 
 $(document).ready(function(){
 	var paras = $("#plot p");
@@ -198,6 +202,18 @@ var vaid = {
 }
 
 $(document).ready(function(){
-	showNote();
-	//vaid.on();
+	if(note["status"] == "dev"){
+	  vaid.on();
+	}
+	$("#toggleNote").click(function(){
+		var button = $(this);
+		if(button.hasClass("on")){
+			button.removeClass();
+			hideNote();
+		}
+		else{
+			button.addClass("on");
+			showNote();
+		}
+	})
 })

@@ -19,7 +19,8 @@ p span {font-style: normal;position: relative;}
     top:8px;
     left:50%;
     font-size:9px;
-    color:#1b1b1b;
+    /*color:#1b1b1b;*/
+    color:#888;
     font-style: normal;
 }
 
@@ -93,4 +94,20 @@ span i, span b {
 
 span i:hover, span b:hover{
     cursor:pointer;
+}
+
+button{
+    color:#333;
+    background-color:#CCC;
+    outline:0px;
+    border:1px solid #DDD;
+}
+
+button.on{
+    background-color:orange;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color:#EEE;
 }
