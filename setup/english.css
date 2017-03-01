@@ -30,7 +30,6 @@ p span {font-style: normal;position: relative;}
 }
 
 span i.alone{
-    content: "";
     width:75%;
     height:5px;
     display:inline-block;
@@ -42,7 +41,6 @@ span i.alone{
     border-right:2px solid orange;
 }
 span b.alone{
-    content: "";
     width:75%;
     height:5px;
     display:inline-block;
@@ -55,7 +53,6 @@ span b.alone{
 }
 
 span b.head {
-    content: "";
     width:90%;
     height:5px;
     display:inline-block;
@@ -66,19 +63,36 @@ span b.head {
     border-left:2px solid red;
 }
 
+span i.head {
+    width:90%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    bottom:-5px;
+    left:10%;
+    border-bottom:2px solid orange;
+    border-left:2px solid orange;
+}
+
 span b.cross {
-    content: "";
     width:100%;
-    height:50px;
+    height:5px;
     display:inline-block;
     position: absolute;
     top:-5px;
     left:0px;
     border-top:2px solid red;
-
+}
+span i.cross {
+    width:100%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    bottom:-5px;
+    left:0px;
+    border-bottom:2px solid orange;
 }
 span b.tail {
-    content: "";
     width:90%;
     height:5px;
     display:inline-block;
@@ -88,8 +102,15 @@ span b.tail {
     border-top:2px solid red;
     border-right:2px solid red;
 }
-
-span i, span b {
+span i.tail {
+    width:90%;
+    height:5px;
+    display:inline-block;
+    position: absolute;
+    bottom:-5px;
+    right:10%;
+    border-bottom:2px solid orange;
+    border-right:2px solid orange;
 }
 
 span i:hover, span b:hover{

@@ -72,7 +72,7 @@ var showNote = function(){
 				var uid = generateUUID();
 				var head = span[0];
 				var tail = span[1];
-				var content = struc[key];
+				var content = partOspeech[key];
 
 				// head
 				var element = $(pElement).find("span:nth-child(" 
@@ -120,12 +120,12 @@ var showNote = function(){
 
 		var uid = infoBox.attr("data-uid");
 		if(uid != undefined){
-			$("span b[data-uid=" + uid +"]").each(function(){
-				$(this).css("border-color", "yellow");	
+			$("[data-uid=" + uid +"]").each(function(){
+				$(this).css("border-color", "#CCC");	
 			})
 		}
 		else{		
-			$(this).css("border-color", "yellow");
+			$(this).css("border-color", "#CCC");
 		}
 	});
 	$("span i").mouseout(function(event){
@@ -162,6 +162,9 @@ var showNote = function(){
 var hideNote = function(){
 	$("#plot p span b").removeAttr().removeClass();
 	$("#plot p span i").removeAttr().removeClass();
+	if(note["status"] == "dev"){
+	  vaid.on();
+	}
 }
 // prepare plot 
 $(document).ready(function(){
