@@ -3,11 +3,11 @@ body {padding: 20px;}
 #tooltip {
 	position: absolute;
 	display:none;
-	background: #333;
-	color:white;
+	background: #000;
+	color:#FFF;
 	padding:5px;
+    z-index:99;
 }
-#plot {width: 100%; margin:0 auto;}
 p {line-height: 200%; position: relative;}
 p span {font-style: normal;position: relative;}
 
@@ -28,32 +28,32 @@ p span {font-style: normal;position: relative;}
     visibility: visible;
 }
 
-span.alone b{
+span i.alone{
     content: "";
-    width:80%;
+    width:75%;
     height:5px;
     display:inline-block;
     position: absolute;
     bottom:-5px;
-    left:10%;
+    left:5%;
     border-bottom:2px solid orange;
     border-left:2px solid orange;
     border-right:2px solid orange;
 }
-span.alone i{
+span b.alone{
     content: "";
-    width:80%;
+    width:75%;
     height:5px;
     display:inline-block;
     position: absolute;
     top:-5px;
-    left:10%;
+    left:5%;
     border-top:2px solid red;
     border-left:2px solid red;
     border-right:2px solid red;
 }
 
-span.head i {
+span b.head {
     content: "";
     width:90%;
     height:5px;
@@ -65,7 +65,7 @@ span.head i {
     border-left:2px solid red;
 }
 
-span.cross i {
+span b.cross {
     content: "";
     width:100%;
     height:50px;
@@ -76,7 +76,7 @@ span.cross i {
     border-top:2px solid red;
 
 }
-span.tail i {
+span b.tail {
     content: "";
     width:90%;
     height:5px;
@@ -88,6 +88,9 @@ span.tail i {
     border-right:2px solid red;
 }
 
-span i:hover{
+span i, span b {
+}
+
+span i:hover, span b:hover{
     cursor:pointer;
 }
