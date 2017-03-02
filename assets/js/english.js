@@ -204,7 +204,7 @@ var vaid = {
 }
 
 $(document).ready(function(){
-	if(note["status"] == "dev"){
+	if(note["status"] == "{{ page.title }}"){
 	  vaid.on();
 	}
 	$("#toggleNote").click(function(){

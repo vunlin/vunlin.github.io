@@ -9,7 +9,7 @@ title: Dota - Earthshaker
 
 <script>
 var note = {};
-note["status"] = "dev";
+note["status"] = "{{ page.title }}";
 note[1] = {};
 note[1]['structure'] = {
 	'1-6' : 'Earthshaker的形容词短语',
