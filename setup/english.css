@@ -130,3 +130,9 @@ button:hover {
     cursor:pointer;
     background-color:#EEE;
 }
+
+/* translation block */
+#plot div {
+    margin-bottom:10px;
+    color:orange;
+}
