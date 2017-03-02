@@ -133,7 +133,6 @@ var showNote = function(){
 		tooltipElement.css("display", "none");
 		var infoBox = $(this);
 		var uid = infoBox.attr("data-uid");
-		console.log(uid);
 		if(uid != undefined){
 			$("i[data-uid=" + uid +"]").each(function(){
 				$(this).css("border-color", "orange");			

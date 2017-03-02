@@ -15,8 +15,8 @@ title: Detachment (2011)
 
 <div>电影副线包括Dr. Parker(Lucy Liu饰演)作为一个学生辅导员的挣扎和Dearden(Marcia Gay Harden饰演)作为一个陷入深度困境学校的校长, 面对被免职的折磨。</div>
 <script>
-	var note = {};
-	note["status"] = "product";
+var note = {};
+note["status"] = "product";
 note[1] = {};
 note[1]['structure'] = {
 	'1' : 'S主语',
