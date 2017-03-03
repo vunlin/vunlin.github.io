@@ -50,6 +50,10 @@
 		    <a href="/English/TV/Breaking_bad/S02E09">S02E09</a>
 		    <a href="/English/TV/Breaking_bad/S02E10">S02E10</a>
 
+	1. Fringe (2008-2013)
+	1. The Night Of (2016)
+	1. Homeland (2011-)
+	1. Game Of Thrones (2011-)
 1. ### 游戏Dota2英雄
 	1. Strength - 力量型
 		- <a href="/English/Game/Earthshaker">Earthshaker</a>
