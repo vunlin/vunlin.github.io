@@ -32,7 +32,11 @@ note[1]['structure'] = {
 };
 //pos - part of speech
 note[1]['pos'] = {
+	'1-2':'Come to 动词短语，become conscious when use alone, or reach a state when use with a noun',
 	'26': 'compound sentence连词',
+	'30-31':'used to 助动词 像(can,have to,must,should)',
 	'60': 'compound sentence连词',
+	'66-68':'in order that 简化he is able to seek副词从句',
+	'73':'as 副词连接词',
 };
 </script>
