@@ -29,7 +29,7 @@ note[1]['structure'] = {
 //pos - part of speech
 note[1]['pos'] = {
 	'18': 'directed与starring同等重要',
-	'22-26': '修饰Adrien Brody的形容词'
+	'22-26': '修饰Adrien Brody的副词短语'
 };
 
 note[2] = {};
