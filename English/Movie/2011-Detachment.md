@@ -49,7 +49,7 @@ note[2]['structure'] = {
 	'78': 'V',
 	'80': 'O',
 	'81-83': '形容词短语',
-	'84-113': 'effects的简化形容词从句,连接两个so that he re-discover和come to的简化副词从句',
+	'84-113': 'effects的简化形容词从句,连接两个so that he have to re-discover和come to的简化副词从句',
 	'114-115': 'S',
 	'116': 'V',
 	'117': 'C',
