@@ -1,3 +1,6 @@
+body {
+    margin-bottom:1000px;
+}
 #tooltip {
 	position: absolute;
 	display:none;
