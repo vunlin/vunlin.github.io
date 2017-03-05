@@ -161,9 +161,9 @@ var showNote = function(){
 var hideNote = function(){
 	$("#plot p span b").removeAttr().removeClass();
 	$("#plot p span i").removeAttr().removeClass();
-	if(note["status"] == "dev"){
+	//if(note["status"] == "dev"){
 	  vaid.on();
-	}
+	//}
 }
 // prepare plot 
 $(document).ready(function(){
