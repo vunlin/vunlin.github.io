@@ -28,7 +28,7 @@ note[1]['structure'] = {
 	'64': 'O',
 	'65-67': 'himself的形容词短语',
 	'68-71': 'novice的形容词短语',
-	'72-75': 'while/though he简化副词从句',
+	'72-75': 'who never reveals 简化形容词从句',
 	'76-78': 'studied副词短语',
 	'79': 'S',
 	'80': 'V',
@@ -51,7 +51,7 @@ note[1]['structure'] = {
 	'124' : 'V',
 	'125-127': '副词短语',
 	'128-129': '副词词组',
-	'130-133': 'from then on he follows简化副词从句',
+	'130-133': 'who follows简化形容词词从句',
 	'134-138': 'follow的副词短语',
 };
 //pos - part of speech
