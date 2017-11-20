@@ -1,5 +1,6 @@
-### 前端代码标注和理解
+HTML,css,javascript ALl tag, element, etc.
 
-1. <a href="/#">Lightbox2</a>
+Bad practice collection 
++ Stackoverflow, SegmentFault
+= THE COMPELTENESS, not HAVE NO ending
 
-2. <a href="/#">featherlight</a>
