@@ -139,14 +139,142 @@ h1, h2, h3, h4, h5, h6: 6个不同等级的标题
 
 ### Embedded 内嵌元素
 
-picture (source)
-img
-iframe
-embed
-object (param)
-video (source, track)
-audio (source, track)
-map (area)
+picture (source): 包含几个图片, 按照不同情况使用不同图片, 比如如果是手机设备使用小尺寸图片
+	<picture>
+	  <source 
+	    media="(min-width: 650px)"
+	    srcset="images/kitten-stretching.png">
+	  <source 
+	    media="(min-width: 465px)"
+	    srcset="images/kitten-sitting.png">
+	  <img 
+	    src="images/kitten-curled.png" 
+	    alt="a cute kitten">
+	</picture>
+
+source: 定义不同资源给于 picture, audio 和 video
+	srcset - 按照不同条件(屏幕大小)载入不同图片
+	sizes - 按照不同条件(屏幕大小)*最终实际使用*不同图片*大小*
+	media - 设备类型 (screen, speech, all etc)
+	type - MIME 类型 (image/png image/jpeg etc)
+	src - 资源链接, 只用于audio 和 video
+	<img srcset="elva-fairy-320w.jpg 320w,
+	             elva-fairy-480w.jpg 480w,
+	             elva-fairy-800w.jpg 800w"
+	     sizes="(max-width: 320px) 280px,
+	            (max-width: 480px) 440px,
+	            800px"
+	     src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy">
+
+img: 图片资源 
+	alt - 当图片资源不可以的时候(链接不正确,类型不支持), 使用的代替文字
+	src - 资源链接
+	srcset - 按照不同条件(屏幕大小)载入不同图片
+	sizes - 按照不同条件(屏幕大小)*最终实际使用*不同图片*大小*
+	crossorigin - anonymous: 匿名方式, use-credentials: 验证方式(通过cookie等发送验证资料) 
+	usemap - client-side map 图片名字
+	ismap - 该图片是否是server-side map
+	width - 宽度
+	height - 高度
+
+iframe: 内嵌网页
+	src - 资源链接
+	srcdoc - 在支持sandbox的HTML5 浏览器中 覆盖 override src资源链, 来保护使用旧浏览器的用户
+			https://stackoverflow.com/questions/19739001/which-is-the-difference-between-srcdoc-and-src-datatext-html-in-an
+
+	name - 名字
+	sandbox - 定义那些操作可用使用 (allow-forms, allow-modals, allow-popups etc)
+	allowfullscreen - 是否允许使用 requestFullscreen() 变成全屏
+	width - 宽度
+	height - 高度
+
+embed: 外界程序, 或者可以说是plug-in
+	src - 资源链接
+	type - MIME 类型
+	width - 宽度
+	height- 高度
+
+object (param): 外界资源, 程序网页等等
+	data - 资源链接
+	type - MIME 类型
+	typemustmatch - 是否 type所讲的MIME类型 要跟实际资源类型 相符合
+	name - 名字
+	form - 表单
+	width - 宽度
+	height - 高度
+
+	param: 内嵌资源参数
+	name - 名字
+	value - 数值
+
+video (source, track): 内置影片资源
+	src - 资源链接
+	crossorigin - 定义怎么处理cross origin情况
+	poster - 用影片的哪一个frame来当做封面
+	preload - 要预先下载多少(0%-100%)
+	autoplay - 是否载入后立即播放
+	loop - 是否重复播放
+	muted - 是否一开始静音
+	controls - 是否显示用户控制面板
+	width - 宽度
+	height - 高度
+
+	source: 可以用来根据不同情况(宽带大小 MIME类型等等)使用不同资源链接
+	track: 时间文字 Web Video Text Tracks. webvtt .vtt 文件
+
+		kind - 文字类型, 默认为subtitle翻译字幕, caption(cc 内置字幕)
+				decription(描述), chapter(章节标题), metadata(一些脚本script用的数据)
+		src - 文字资源链接
+		srclang - 文字语言
+		label - 文字标题
+		default - 默认文字
+
+		WEBVTT
+		00:01.000 --> 00:04.000
+		Never drink liquid nitrogen.
+
+		00:05.000 --> 00:09.000
+		- It will perforate your stomach.
+		- You could die.
+
+	<video controls poster="/images/sample.gif">
+	   <source src="sample.mp4" type="video/mp4">
+	   <source src="sample.ogv" type="video/ogv">
+	   <track kind="captions" src="sampleCaptions.vtt" srclang="en">
+	   <track kind="descriptions" src="sampleDescriptions.vtt" srclang="en">
+	   <track kind="chapters" src="sampleChapters.vtt" srclang="en">
+	   <track kind="subtitles" src="sampleSubtitles_de.vtt" srclang="de">
+	   <track kind="subtitles" src="sampleSubtitles_en.vtt" srclang="en">
+	   <track kind="subtitles" src="sampleSubtitles_ja.vtt" srclang="ja">
+	   <track kind="subtitles" src="sampleSubtitles_oz.vtt" srclang="oz">
+	   <track kind="metadata" src="keyStage1.vtt" srclang="en" label="Key Stage 1">
+	   <track kind="metadata" src="keyStage2.vtt" srclang="en" label="Key Stage 2">
+	   <track kind="metadata" src="keyStage3.vtt" srclang="en" label="Key Stage 3">
+	</video>
+
+audio (source, track): 内置声音资源
+map (area): 图像地图 image's map
+	name - usemap 用的地图名字
+	<map name="primary">
+	  <area shape="circle" coords="75,75,75" href="left.html">
+	  <area shape="circle" coords="275,75,75" href="right.html">
+	</map>
+	<img usemap="#primary" src="http://placehold.it/350x150" alt="350 x 150 pic">
+
+area: 定义地图用于图像
+	alt - 图片不能显示时候用的文字
+	coords - 各种形状使用的不同坐标
+	download - 是否下载链接的资源
+	href - 资源链接
+	hreflang - 资源语言
+	rel - 资源与本文档的关系
+	shape - circle圆, rectangle长方形, poly多边形, default全部
+	target - 在哪个页面打开
+	type - MIME 类型
+
+SVG: vector drawing
+canvas: raster drawing
+webGL: 3D drawing
 
 ### Phrasing 
 
@@ -219,8 +347,33 @@ del: 删除
 	
 ### Interactive
 
-details (summary)
+details (summary) 提供更多详细信息
+	open: 默认false, 是否展示除了summary以外的详细信息, 在页面载入后
+	
+	<details>
+	  <summary>Some details</summary>
+	  <p>More info about the details.</p>
+	</details>
+
+	<details open>
+	  <summary>Even more details</summary>
+	  <p>Here are even more details about the details.</p>
+	</details>
+
 menu (menuitem)
+	type - context, menu 
+	label - 用户可见标题
+	
+	<div contextmenu="popup-menu">
+	  Right-click to see the adjusted context menu
+	</div>
+
+	<menu type="context" id="popup-menu">
+	  <menuitem>Action</menuitem>
+	  <menuitem>Another action</menuitem>
+	  <hr>
+	  <menuitem>Separated action</menuitem>
+	</menu>
 
 {Grouping}
 p: 段落
@@ -271,64 +424,289 @@ main: 文档主体区域
 div: 无语义分区
 
 {tabular data}
-table
-caption
-colgroup
-col
-tbody
-thead
-tfoot
-tr
-td
-th
+table: 表格
+caption: 表格标题title
+colgroup: 配合col定义有限的column格式
+col: 定义每个或者连续几个column格式
+tbody: body区
+thead: head区
+tfoot: foot区
+tr: table row
+td: table data
+th: table header
 
 {form}
-form
-label
-input
-button
-select (optgroup->option)
-datalist
-textarea
-keygen
-output
-progress
-meter
-fieldset (legend)
+form: 表单提交
+	accept-charset - 使用什么字符集
+	action - 提交表单到哪个链接
+	autocomplete - 是否自动由浏览器填写资料,用户名和密码都会出现提示不管你的设置
+	enctype - method是Post的提交方式类型
+		application/x-www-form-urlencoded, multipart/form-data, text/plain (HTML5)
+		https://stackoverflow.com/questions/4007969/application-x-www-form-urlencoded-or-multipart-form-data
+
+	method - 提交方式 post: data embed in body, get: data constructed as query string
+	name - 表单名字
+	novalidate - 无需要通过表单要求
+	target - 用什么页面方式提交
+
+label: 标签
+	for - 跟哪个控件相关, 增加radio, checkbox控件的点击范围
+	<label for="username">Click me</label>
+	<input type="text" id="username">
+
+input: 通用的控件 (type - 控件类型)
+	select(), selectionStart, selectionEnd, selectionDirection
+	setRangeText(replacement), setSelectionRange(start, end)
+
+	button: 普通按钮 
+		value - 按钮上面的文字
+	submit: 提交按钮
+		value - 按钮上面的文字
+	reset: 重置按钮
+		value - 按钮上面的文字
+	image: 图像提交submit按钮
+		src - 图像URL
+		alt - 图像不能载入时候使用的文字
+		width - 宽度
+		height - 高度
+
+	checkbox: 复选框
+		checked - 是否被选
+	radio: 单选框
+		checked - 是否被选
+		name - 把这个单选框归入一个组中 radio group name
+		value - 数值
+	
+	color: 颜色挑选
+		value - #加上六位数 <input type="color" value="#ff0000">
+	date: 日期挑选
+		value - 日期数值 <input id="date" type="date" value="2017-06-01">
+		min - 最早可用日期值
+		max - 最迟可用日期值
+		<input type="date" id="party" name="party" min="2017-04-01" max="2017-04-20">
+		pattern - 要求的格式
+		<input type="date" id="bday" name="bday" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+
+	datetime-local: 日期加上时间(hh:mm:AM/PM), 没有时间区域timezone
+		min - 最早可用日期值
+		max - 最迟可用日期值
+		<input type="datetime-local" min="2017-06-01T08:30" max="2017-06-30T16:30">
+
+	month: 年和月的日期
+		value - 日期数值
+		min - 最早可用日期值
+		max - 最迟可用日期值
+	
+	time: 时间控件, 一般只有HH:MM:A/PM, 要加秒的话, 要用step
+	week: 星期年份控件
+
+	email: 电子邮箱
+		multiple - 允许0到多个邮箱数值 "me@example.org,you@example.org,us@example.org"
+		placeholder - 提示用的标签 <input type="email" placeholder="sophie@example.com">
+		size - 控件的实际长度, 但不限制数据长度
+		minlength - 最短数据长度
+		maxlength - 最长数据长度
+		<input type="email" size="32" minlength="3" maxlength="64">
+
+	file: 当地文件
+		multiple - 允许使用多个文件
+		accept - 接受什么格式的文件
+		<input type="file" multiple accept=".jpg, .jpeg, .png">
+
+	hidden: 隐藏控件, 看不见但是有输送数值给服务器
+
+	number: 数字控件
+		min - 最早可用日期值
+		max - 最迟可用日期值
+		step - 上调和下调指针每一点击的数值
+		<input type="number" placeholder="multiple of 10" step="10">
+
+	password: 密码控件,输入后自动隐藏
+		required - 必须填写
+		minlength - 最短数据长度
+		maxlength - 最长数据长度
+		autocomplete - 自动由浏览器填写, on(填写目前密码), off(不填写)
+						current-password(填写目前密码more informative), new-password(填写新密码)
+		inputmode - 使用哪种键盘输入, <input id="pin" type="password" inputmode="numeric">
+					手机会提供数字小键盘输入(tel, email, url etc...)
+
+	range: 滑竿slider or dial 数值控件给不重要的数据
+		min - 最早可用日期值
+		max - 最迟可用日期值
+		step - 上调和下调指针每一点击的数值
+		list - 指示用哪个datalist
+
+	text: 普通文字
+
+	search: 搜索控件, 跟普通text控件最主要区别是浏览器会添加一个X号在控件里面
+		<input type="search" id="mySearch" name="q" placeholder="Search the site...">
+	
+	tel: 电话, 手机上会使用电话键盘来输入
+		pattern - 设定符合的格式
+
+	url: 链接
+
+	通用属性
+	disabled - 禁用
+	required - 必须有数值
+	name - 名字,用于脚本操作	
+	readonly - 是否允许用户修改数值
+	autofocus - 自动把光标移动到该控件,在页面载入完毕之后
+	list - 推荐数据datalist 
+	
+	表格提交属性
+	form - Associates the control with a form element
+	formaction - URL to use for Form submission
+	formenctype - Form data set encoding type to use for Form submission
+	formmethod - HTTP method to use for Form submission
+	formnovalidate - Bypass form control validation for Form submission
+	formtarget - browsing context for Form submission
+
+button 按钮
+	autofocus - 自动把光标移动到该控件,在页面载入完毕之后
+	disabled - 禁用
+	form - Associates the control with a form element
+	formaction - URL to use for Form submission
+	formenctype - Form data set encoding type to use for Form submission
+	formmethod - HTTP method to use for Form submission
+	formnovalidate - Bypass form control validation for Form submission
+	formtarget - browsing context for Form submission
+	menu - Specifies the element’s designated pop-up menu
+	name - 名字
+	type - submit, reset, button(default)
+	value - 数值
+
+select (optgroup->option) 数据组
+	autofocus
+	disabled
+	form - 数据给哪个表格
+	multiple - 允许多项
+	name - 名字
+	required 
+	size
+
+	<select>
+	  <optgroup label="Swedish Cars">
+	    <option value="volvo" disabled>Volvo</option>
+	    <option value="saab">Saab</option>
+	  </optgroup>
+	  <optgroup label="German Cars">
+	    <option value="mercedes">Mercedes</option>
+	    <option value="audi" label="Audi">Bad Word</option>
+	  </optgroup>
+	</select>
+
+	optgroup
+		disabled
+		label - 分组的文字
+	option
+		disabled
+		label - 代替Text的文字
+		selected 
+		value
+	
+datalist (option) 给各种控件提供的列表
+	<datalist id="browsers">
+	  <option value="Chrome">
+	  <option value="Firefox">
+	  <option value="Internet Explorer">
+	</datalist>
+
+textarea 文字区
+	select(), selectionStart, selectionEnd, selectionDirection
+	setRangeText(replacement), setSelectionRange(start, end)
+	autocomplete - on, off
+	autofocus
+	cols - 一行最多多少字
+	disabled
+	form - 哪个表格名字
+	inputmode
+	maxlength
+	minlength
+	name
+	placeholder
+	readonly
+	required
+	rows - 可见几行
+	wrap - hard (必须跟cols一起使用, 超过cols就 line breaks (CR+LF)), soft, off
+
+keygen 秘密钥匙
+	autofocus
+	challenge - 产生的密码
+	disabled
+	form - 哪个表单
+	keytype - 默认RSA
+	name
+
+output 输出
+	for - 影响输出结果的资源IDs
+	form
+	name
+
+progress 任务进度
+	value - 目前进度
+	max - 总进度
+	<progress value="70" max="100">70 %</progress>
+
+meter 衡量度
+	value - 目前数值, 在min和max之间
+	min - 最低
+	max - 最高
+	low - 低领域值(min-low)
+	high - 高领域值(high-max)
+	optimum - 完美值
+
+fieldset (legend): 几个控件的划区
+	<form action="test.php" method="post">
+	  <fieldset>
+	    <legend>Title</legend>
+	    <input type="radio" id="radio">
+	    <label for="radio">Click me</label>
+	  </fieldset>
+	</form>
 
 {scripting}
-script
-noscript
-canvas
-template
-math
-svg
 
+script 脚本
+	src - 资源链接
+	type - text/javascript, module(HTML5)
+	charset
+	async - 同时运行parallel
+	defer - execute AFTER document loaded BEFORE  DOMContentLoaded  fired
+	crossorigin
+	nonce - 验证密码
+
+noscript 无脚本
+	<noscript>
+	  <!-- anchor linking to external file -->
+	  <a href="https://www.mozilla.com/">External Link</a>
+	</noscript>
+
+template 模版
 
 ### Global Attribute
 
-accesskey
-class
-contenteditable
-contextmenu
-data-*
-dir
-draggable
-dropzone
-hidden
-id
-lang
-spellcheck
-style
+accesskey 快捷键
+class 类别
+contenteditable 编辑
+contextmenu 用哪一个context type menu
+data-* 自定义数据
+dir: 文字方向 ltr, rtl, auto 
+draggable 是否可以drag and drop
+dropzone 怎么处理drop event
+hidden 隐藏
+id 识别标志
+lang 语言
+spellcheck 检查拼写
+style: inline style
 tabindex
-title
-translate
+title: 通常是以tooltip 形式出现
+translate 是否翻译
 
 {GlobalEventHandlers interface}
 
 onabort
-onblur
-文档失去关注(document lose focus)
+onblur 文档失去关注(document lose focus)
 oncancel
 oncanplay
 oncanplaythrough
@@ -349,17 +727,14 @@ ondrop
 ondurationchange
 onemptied
 onended
-onerror
-文档无法正常载入(document fails to load properly)
-onfocus
-文档得到关注
+onerror 文档无法正常载入(document fails to load properly)
+onfocus 文档得到关注
 oninput
 oninvalid
 onkeydown
 onkeypress
 onkeyup
-onload
-文档完成加载
+onload 文档完成加载
 onloadeddata
 onloadedmetadata
 onloadstart
@@ -376,11 +751,9 @@ onplay
 onplaying
 onprogress
 onratechange
-onredo
-用户在改变记录中向前移动
+onredo 用户在改变记录中向前移动
 onreset
-onresize
-文档改变尺寸
+onresize 文档改变尺寸
 onscroll
 onseeked
 onseeking
@@ -391,39 +764,27 @@ onsubmit
 onsuspend
 ontimeupdate
 ontoggle
-onundo
-用户在改变记录中向后移动
+onundo 用户在改变记录中向后移动
 onvolumechange
 onwaiting
 
 ### WindowEventHandler Interface
 
-onafterprint
-用户打印完文档
-onbeforeprint
-用户请求打印文档
-onbeforeunload
-文章卸载前
-onhashchange
-文档当前地址的#这个部分出现变化
-onlanguagechange
-想要的语言出现变化(preferred language changed)
-onmessage
-文档收到一条信息
-onoffline
-网络失去连接
-ononline
-网络重新连接
+onafterprint 用户打印完文档
+onbeforeprint 用户请求打印文档
+onbeforeunload 文章卸载前
+onhashchange 文档当前地址的#这个部分出现变化
+onlanguagechange 想要的语言出现变化(preferred language changed)
+onmessage 文档收到一条信息
+onoffline 网络失去连接
+ononline 网络重新连接
 onpagehide
 onpageshow
 onrejectionhandled
-onpopstate
-用户在会话历史记录移动 (user has navigated session history)
-onstorage (web storage)
-localStorage 或者 sessionStorage出现变动
+onpopstate 用户在会话历史记录移动 (user has navigated session history)
+onstorage (web storage): localStorage 或者 sessionStorage出现变动
 onunhandledrejection
-onunload
-文档消失
+onunload 文档消失
  
 ### DocumentAndElementEventHandlers interface
 
