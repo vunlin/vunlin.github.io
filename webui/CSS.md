@@ -9,6 +9,9 @@ CSS引入
 }
 @import "print-styles.css" print, embossed;
 
+position: static | relative | absolute | sticky | fixed
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
 type 类型
 (‘aural’, ‘braille’, ‘handheld’, ‘print’, ‘projection’
 ‘screen’, ‘tty’, ‘tv’, ‘embossed:braille printer’, ‘speech:replace aural’, ‘all’)
@@ -92,7 +95,7 @@ list-style-image 数列 (url)
 
 ### Selector 元素挑选
 
-Universal selector: *, ns|*, *|*, |*(Universal selector with NameSpace CSS3)
+Universal selector: *, ns|*, *|*, |*, all (Universal selector with NameSpace CSS3)
 Type selector: Element name (h1,div, etc...)
 ID selector: (#ID)
 Class selector: .class_name == [class~=class_name]
@@ -167,7 +170,7 @@ Pseudo-elements
 	::selection 文字selection
 	::spelling-error 拼写错误  
 
-### CSS TRANSFORMS 变化
+### CSS TRANSFORMS 变化 (for all kinds of elements)
 	transform functions
 		matrix: combine of (translate, rotate, scale)
 		translate 平移
@@ -260,9 +263,238 @@ Other
 	shape-margin
 	shape-outside
 
-### Other
+### CSS Masking 遮罩
+	clip 剪除 (clip path)
+	mask 遮罩 更加精细
+	mask-clip 影响的范围SVG?
+	mask-composite ??
+	mask-image 图像??
+	mask-mode ??
+	mask-origin 地方 ??
+	mask-position 开始的地方
+	mask-repeat 重复方式
+	mask-size 大小
+	mask-type ??
 
+### CSS Text Decoration
+	text-align 排版 start | end | left | right | center | justify | match-parent
+	text-align-last 最后一行排版 
+	text-combine-upright
+	text-decoration 装饰shorthand
+	text-decoration-color 颜色
+	text-decoration-line 线高度 none | [ underline || overline || line-through || blink ]
+	text-decoration-style 格式 solid | double | dotted | dashed | wavy
+	text-emphasis: 重点 -webkit-text-emphasis: triangle #D55;
+	text-emphasis-color: see above
+	text-emphasis-position: see above
+	text-emphasis-style: see above
+	text-indent: <length>, <percentage>
+	text-justify: 在text-align:justify下使用 auto | inter-character | inter-word | none
+	text-orientation: 配合writing-mode 使用
+	text-overflow: 文字溢出是怎么处理
+	text-rendering: 怎么render文字 auto | optimizeSpeed | optimizeLegibility | geometricPrecision
+	text-shadow: rather like box-shadow
+	text-transform: 变化 none | capitalize | uppercase | lowercase | full-width
+	text-underline-position: 跟text-decoration-line:unline 配合使用
+	vertical-align: inline 或者 table cell 垂直排版
+		baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>
+	writing-mode: 写作方向和排列 horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr
+	tab-size: 设定tab的格数
+	
+	white-space: 怎么处理多个连续的空格 normal | pre | nowrap | pre-wrap | pre-line
+	word-break: oveflow的文字加入line break?
+	hyphens: oveflow的文字加入-hyphens?
+	overflow-wrap: overflow是否wrap?
+
+	word-spacing
+	letter-spacing
+
+	hanging-punctuation???
+
+### CSS Fonts 
+	font
+	font-family 用系统自带哪个字体 font-family: Times, Times New Roman, Georgia, serif;
+	font-feature-settings 控制OpenType fonts设置  normal|<feature-tag-value>
+	font-stretch 字体拉伸控制 normal | ultra-condensed | extra-condensed | condensed | semi-condensed
+							  semi-expanded | expanded | extra-expanded | ultra-expanded
+
+	font-style 字体形式 normal | italic | oblique
+	font-weight 粗细 normal | bold | bolder | lighter | 100 ...
+	font-variant 
+	font-variant-caps 大写字体 normal | small-caps | all-small-caps | petite-caps 
+							   all-petite-caps | unicase | titling-caps
+	font-variant-east-asian 东方字体 日文 中文
+	font-variant-ligatures 连字 ???
+	font-variant-numeric 数值,分数等等
+	font-variant-position 位置 normal | sub | super
+	format(): url('examplefont.woff') format("woff"),
+      		  url('examplefont.otf') format("opentype");
+
+	@font-face 使用外界的字体
+	src:url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+
+	font-family (@font-face)
+	font-feature-settings (@font-face)
+	font-stretch (@font-face)
+	font-style (@font-face)
+	font-weight (@font-face)
+	font-variant (@font-face)
+	format (@font-face)
+
+	font-size 字体大小
+	font-size-adjust: font-size 以capital letter 还是 lowercase做标准
+	unicode-range 字体取值范围, 默认U+0-10FFFF 
+	font-kerning 字距调整 auto | normal | none
+
+### CSS Lists and Counters
+	list-style
+	list-style-image 图像 <url> | none
+	list-style-position 位置 inside | outside
+	list-style-type 样式 disc|square|circle|... many more
+
+	<counter>
+	counter-increment 幅度 step
+	counter-reset 重新设置为多少
+
+### CSS Multi-column Layout 
+	columns: both (column-width and column-count)
+	column-width: 每栏多宽
+	column-count: 总共几栏
+
+	column-gap: 每栏之间距离
+	column-rule: 每栏之间竖线
+	column-rule-color 颜色
+	column-rule-style 样式
+	column-rule-width 粗细
+
+	column-span: 改变占的栏数
+	column-fill: 怎么分配到每一栏
+
+### CSS Grid Layout
+	grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+	display: grid, inline-grid, sub-grid
+	
+	开始到结束范围
+	grid-row: shorthand
+	grid-row-start
+	grid-row-end
+	grid-column: shorthand
+	grid-column-start
+	grid-column-end
+	
+	grid-area: 区域
+
+	自动制定大小
+	grid-auto-flow
+	grid-auto-columns
+	grid-auto-rows
+	
+	之间的距离
+	grid-gap: shorthand
+	grid-column-gap
+	grid-row-gap
+
+	模版
+	grid-template: shorthand
+	grid-template-areas
+	grid-template-columns
+	grid-template-rows
+
+### CSS Properties and Values
+	:root + var() + Custom properties (--*)
+		:root {
+		  --main-bg-color: pink;
+		}
+
+		body {
+		  background-color: var(--main-bg-color);
+		}
+
+### CSS Values and Units
+	Distance Units
+	Font-relative Length: em, ex, ch, rem
+	Viewport-Percentage Length: vw, vh, vmin, vmax
+	Absolute Length: cm, mm, q, in, pt, pc, px
+
+	Angle Unit: deg, grad, rad, turn
+	Duration Unit: s, ms
+	Frequency Unit: Hz, kHz
+	Resolution Unit: dpi, dpcm, dppx
+
+	functions: calc(), attr()
+
+### Mobile Touch Action
+https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action
+
+touch-action (use native mobile browser's touch actions instead)
+	html {
+	  touch-action: manipulation;
+	}
+
+	auto: Enable browser handling of all panning and zooming gestures.
+	none: Disable browser handling of all panning and zooming gestures.
+	
+	pan-x: Enable single-finger horizontal panning gestures. May be combined with pan-y, pan-up, pan-down and/or pinch-zoom.
+	
+	pan-y:Enable single-finger vertical panning gestures. May be combined with pan-x, pan-left, pan-right and/or pinch-zoom.
+	
+	manipulation: 
+	Enable panning and pinch zoom gestures, but disable additional non-standard gestures such as double-tap to zoom. Disabling double-tap to zoom removes the need for browsers to delay the generation of click events when the user taps the screen. This is an alias for "pan-x pan-y pinch-zoom" (which, for compatibility, is itself still valid).
+	
+	pan-left, pan-right, pan-up, pan-down:
+	Enable single-finger gestures that begin by scrolling in the given direction(s). Once scrolling has started, the direction may still be reversed. Note that scrolling "up" (pan-up) means that the user is dragging their finger downward on the screen surface, and likewise pan-left means the user is dragging their finger to the right. Multiple directions may be combined except when there is a simpler representation (for example, "pan-left pan-right" is invalid since "pan-x" is simpler, but "pan-left pan-down" is valid).
+
+	pinch-zoom:
+	Enable multi-finger panning and zooming of the page. This may be combined with any of the pan- values.
+
+### Other 
+
+!import 
+@charset "utf-8";
+@import 引进文件 @import url("bluish.css") projection, tv;
 @supports 是否支持某个特征
 @viewport ?? https://css-tricks.com/snippets/html/responsive-meta-tag/ ??
+@page 打印文件的样式 
+	page-break-after 
+	page-break-before
+	page-break-inside	
 
+@namespace
+	@namespace url(http://www.w3.org/1999/xhtml);
+	@namespace svg url(http://www.w3.org/2000/svg);
 
+	/* This matches all XHTML <a> elements, as XHTML is the default unprefixed namespace */
+	a {}
+	/* This matches all SVG <a> elements */
+	svg|a {}
+	/* This matches both XHTML and SVG <a> elements */
+	*|a {}
+
+mix-blend-mode
+isolation
+怎么重合子元素背景和内容, 和父元素背景
+https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+
+filter 滤镜
+	blur() Blurs the image.
+	brightness() Makes the image brighter or darker.
+	contrast() Increases or decreases the image's contrast.
+	drop-shadow() Applies a drop shadow behind the image.
+	grayscale() Converts the image to grayscale.
+	hue-rotate() Changes the overall hue of the image.
+	invert() Inverts the colors of the image.
+	opacity() Makes the image transparent.
+	saturate() Super-saturates or desaturates the input image.
+	sepia() Converts the image to sepia.
+
+color 前景颜色 foreground color (<color>, currentColor, transparent, rgb(), hsl(), etc..)
+
+will-change 提示给浏览器这个元素会变化, 做好优化的准备
+
+minmax(value1, value2): flex and grid layout cell between value1 to value2
+
+object-fill: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+object-position
+
+pointer-event: none (disable pointer click), and lots of SVG(fill, stroke etc) events
