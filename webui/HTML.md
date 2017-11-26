@@ -705,18 +705,18 @@ translate 是否翻译
 
 {GlobalEventHandlers interface}
 
-onabort
+onabort 载入文件被终止
 onblur 文档失去关注(document lose focus)
-oncancel
-oncanplay
-oncanplaythrough
-onchange
-onclick
-onclose
-oncontextmenu
-oncuechange
-ondblclick
-ondrag
+oncancel 通过cancel取消dialog,confirm 等等
+oncanplay 可以播放,但不确定是否可以播放到完成
+oncanplaythrough 可以播放,而且确定是否可以播放到完成
+onchange 数据出现改变 input select textarea
+onclick 点击
+onclose 关闭
+oncontextmenu 点击右键打开context 目录
+oncuechange 字幕webVTT的track出现变化
+ondblclick 双击
+ondrag 拖拽
 ondragend
 ondragenter
 ondragexit
@@ -724,49 +724,49 @@ ondragleave
 ondragover
 ondragstart
 ondrop
-ondurationchange
-onemptied
-onended
+ondurationchange 媒体 audio/video 的 duration 出现变化
+onemptied 媒体变为空
+onended 播放完毕
 onerror 文档无法正常载入(document fails to load properly)
 onfocus 文档得到关注
-oninput
-oninvalid
-onkeydown
+oninput 输入出现变化
+oninvalid 无效数据
+onkeydown 键盘
 onkeypress
 onkeyup
 onload 文档完成加载
-onloadeddata
-onloadedmetadata
-onloadstart
-onmousedown
+onloadeddata 媒体第一frame载入完毕
+onloadedmetadata 媒体meta data载入完毕
+onloadstart 开始载入资源
+onmousedown 鼠标
 onmouseenter
 onmouseleave
 onmousemove
 onmouseout
 onmouseover
 onmouseup
-onwheel
-onpause
-onplay
-onplaying
-onprogress
-onratechange
+onwheel 鼠标滚轮
+onpause 媒体停止
+onplay 媒体开始播放
+onplaying 媒体播放中
+onprogress 载入资源中
+onratechange 媒体播放速度 playback rate change
 onredo 用户在改变记录中向前移动
-onreset
+onreset 表格重设
 onresize 文档改变尺寸
-onscroll
-onseeked
-onseeking
-onselect
-onshow
-onstalled
-onsubmit
-onsuspend
-ontimeupdate
-ontoggle
+onscroll 滚动scrollbar
+onseeked 完成媒体seek
+onseeking 媒体seeking
+onselect 选择 radio, select
+onshow 显示context menu
+onstalled 媒体等待浏览器下载文件
+onsubmit 提交表单
+onsuspend 媒体下载文件被暂停
+ontimeupdate 媒体当前时间出现变化
+ontoggle ???
 onundo 用户在改变记录中向后移动
-onvolumechange
-onwaiting
+onvolumechange 音量出现变化
+onwaiting 媒体停止因为暂时没有数据
 
 ### WindowEventHandler Interface
 
@@ -778,16 +778,16 @@ onlanguagechange 想要的语言出现变化(preferred language changed)
 onmessage 文档收到一条信息
 onoffline 网络失去连接
 ononline 网络重新连接
-onpagehide
-onpageshow
-onrejectionhandled
+onpagehide 离开网页
+onpageshow 回到网页
+onrejectionhandled: Promise Rejected
 onpopstate 用户在会话历史记录移动 (user has navigated session history)
 onstorage (web storage): localStorage 或者 sessionStorage出现变动
-onunhandledrejection
+onunhandledrejection: Unhandled Promised Rejection Event
 onunload 文档消失
  
 ### DocumentAndElementEventHandlers interface
 
-oncopy
-oncut
-onpaste
+oncopy 复制
+oncut 剪切
+onpaste 粘贴

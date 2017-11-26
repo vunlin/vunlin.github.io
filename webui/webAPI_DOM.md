@@ -3,24 +3,26 @@ Document Object Model (DOM)
 ### DOM Interfaces
 
 Window
-	Selection https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection
-	Range ???
-	URL 
-	Worker
+	Navigator 浏览器 (navigator.userAgent)
+	Event (CustomEvent) https://developer.mozilla.org/en-US/docs/Web/API/Event
+		EventTarget (event.target)
 
-Navigator
+	URL: create URL object
+	Console
+	ClipBoard
+	DragAndDrop
+	History
+	Location
+	VTTCue
 
-Event (CustomEvent) https://developer.mozilla.org/en-US/docs/Web/API/Event
-
-EventTarget 
-	Node (ChildNode, NodeList)
-		Attr
-		CharacterData 
-			Comment 
-			Text
-		Document (DOMImplementation)
-		DocumentFragment
-		DocumentType
+EventTarget (addEventListener, removeEventListener, dispatchEvent)
+	Node (ChildNode, NodeList, ParentNode) Node Operation (CRUD, trasversal, all that: appendNode)
+		Attr 属性
+		CharacterData 数据 
+			Text 文字
+			Comment 批注 
+		Document (doctype, stylesheet etc.)
+			DocumentFragment (rather like template, construct parts for Document)
 		Element
 			HTMLElement <article> <section> <nav> <aside> <header> <footer> <address>
 						<em> <strong> <small> <s> <cite> <dfn> <abbr> <ruby>
@@ -87,20 +89,45 @@ EventTarget
 				HTMLScriptElement <script>
 				HTMLTemplateElement <template>
 
-
-navigator.geolocation
+navigator.geolocation (navigator)
 https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation
 
-Notifications API 
+Screen (window): screen information
+
+Notifications API (window)
 https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
 
-IndexedDB API
+IndexedDB API (window)
 https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 
-FileHandle API
+FileHandle API (window)
 https://developer.mozilla.org/en-US/docs/Web/API/File_Handle_API
+File API Blob - File(window)
 
-File API ??? Blob - File
+Web worker (window) concurrent
 
-Camera API ???
+Camera API (navigator)
+	MediaDevice, MediaStream, MediaRecorder
 
+localStorage (window)
+
+WebSocket (window): send/receive message with server without polling
+
+XMLHttpRequest (window): Server Data
+	FormData (interface to construct form data)
+Fetch API (window)
+
+WebRTC (window) audio video input (navigator.getMedia): web meeting etc..
+
+MutationObserver (MVVM) MutationRecord
+
+Performance (window) Performance Timeline API
+	Timing API (navigator)
+
+WYSIWYG (Selection, Range)
+
+Speech API: Convert Audio to Text
+
+Plugins (navigator): get plugins information etc.
+
+GlobalEventHandlers (see HTML.md)
