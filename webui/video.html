@@ -1,46 +1,134 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<style>
+			body {max-width:800px; margin:10px auto;}
+			button {width:50px;}
+			.control:hover {cursor:pointer;}
+
+			.current, .full, .arrowSeek {
+					border:0px;
+					padding:0px;
+					width:300px; 
+					height:7px; 
+					border-radius: 5px; 
+					display:inline-block;
+					background-color:transparent; 
+					position:relative;
+			}
+			.current, .full {position:absolute;}
+			.current {background-color:#3498DB; width:10px;}
+			.full {background-color:#DDD;}
+		</style>
 	</head>
 	<body>
-		<video width="320" height="240" controls>
-		  <source src="https://drive.google.com/uc?export=download&id=17l6cudESJSQ6lwXx37nPw6c-hrshnlQk" type="video/mp4">
-		</video>
+		<main>
+			<video width="320" height="240" id="video">
+			  <source id="curSource" src="" type="video/mp4">  
+			</video>
+			<video id="ww" style="display:none;">
+				<source id="preloader" src="" type="video/mp4">
+			</video>
+			<section class="controlSection">
+				<button id="btn" class="control">play</button>
+				<label>arrowSeek</label>
+				<div class="arrowSeek control" id="arrowSeek">
+					<span class="full"></span>
+					<span class="current"></span>
+				</div>
+			</section>
+		</main>
 	</body>
 	<script>
 		// files resource
 		// https://drive.google.com/uc?export=download&id=
 		var videos = [];
+		var currentIndex = 1;
+		videos[0]  = "60 minutes"
 		videos[1]  = "1b8I9PA6kQNCjAop0wNCFpsjPTSPLtbDv";
 		videos[2]  = "1CjiBCHKiq2_BjOOc72zbGbJj9ZpIHG56";
 		videos[3]  = "1RoWs8dLItVjJDbuGiiTYN8zzim1O2lGg";
 		videos[4]  = "1JqBgszVediSxpE6YOs8_fdFf0I2QC23a";
 		videos[5]  = "1d3HYU8rb9QB3NYbaTkEWS0i9Ygmo1yB6";
 		videos[6]  = "1zu-gtlj7YDqO7XILvVvTkPS-lxVU6rMO";
-		vidoes[7]  = "17uj_sNe48BwmRabmJW8Fr2c3qb6nDpfd";
-		vidoes[8]  = "1iyh6kqiHSkETXpuFYTnxw5tsRmQbGLs0";
-		vidoes[9]  = "1TZp1hWa5P_g1UZ859Pf2XPNOtrcyFi4K";
-		vidoes[10] = "1jydmlcwY72lJU6D_ztJQOm0fW3aRP31x";
-		vidoes[11] = "1KcrImUG_MMj14PfiSlQW7DReYaFkkTGt";
-		vidoes[12] = "1719Vql3MCxqcFObdqytZi2fKR2j9XaO7";
-		vidoes[13] = "1gxussTrDqkEZ_75maOLePMnhD7W7hhW5";
-		vidoes[14] = "1icpJKrCZN-P9zfSmJtXg7Hwuoew4iyt4";
-		vidoes[15] = "15jPzpTI-_Gico-ZwMeP2PDJgz1k8YV-M";
-		vidoes[16] = "1v7IgIF5QYoU1RjZBWmRG3BZPIZ1TSBJ9";
-		vidoes[17] = "1Jn3IBJXDjM7-iyHKo_HKcq4MzgwmwhBv";
-		vidoes[18] = "14IB4F2qfMbEZ-KXRIV6MaJxd_iSDlRkV";
-		vidoes[19] = "1QqSSxtsPpJW9L-QchJzy1PTOFXD5y35P";
-		vidoes[20] = "1bFvyzPoZttqBzXxFIBTakSAYYDGNeN5c";
-		vidoes[21] = "1BJ4J9C8T6LhS9owKjbmy4DIzkBl1I-j7";
-		vidoes[22] = "18bKbIdnH8CayeM6yG9n5eshdCjEb39Eb";
-		vidoes[23] = "1GepsJWoujqRUU_MBBzVj5ZYU7Lk669Sy";
-		vidoes[24] = "1sdLMbEEjSN4D5nZnsVtIhaW_vrN-NTzC";
-		vidoes[25] = "16oFGPk-wRUaO3a54dItKaFFZy3mPZJM8";
-		vidoes[26] = "16oFGPk-wRUaO3a54dItKaFFZy3mPZJM8";
-		vidoes[27] = "1DgOskyUqyH35ELtNf7EI0K3Y-eRgjnII";
-		vidoes[28] = "1qdhTHG0BIHb9iiybW2zuumpHfygBIuaI";
-		vidoes[29] = "1g8CIIGAfn32D4PVaBWfyXFTvlg_YMftV";
-		vidoes[30] = "1_xFXA-f3zGBkGfVBE7yHXe-qxu3RPu8N";
-		vidoes[31] = "17l6cudESJSQ6lwXx37nPw6c-hrshnlQk";
+		videos[7]  = "17uj_sNe48BwmRabmJW8Fr2c3qb6nDpfd";
+		videos[8]  = "1iyh6kqiHSkETXpuFYTnxw5tsRmQbGLs0";
+		videos[9]  = "1TZp1hWa5P_g1UZ859Pf2XPNOtrcyFi4K";
+		videos[10] = "1jydmlcwY72lJU6D_ztJQOm0fW3aRP31x";
+		videos[11] = "1KcrImUG_MMj14PfiSlQW7DReYaFkkTGt";
+		videos[12] = "1719Vql3MCxqcFObdqytZi2fKR2j9XaO7";
+		videos[13] = "1gxussTrDqkEZ_75maOLePMnhD7W7hhW5";
+		videos[14] = "1icpJKrCZN-P9zfSmJtXg7Hwuoew4iyt4";
+		videos[15] = "15jPzpTI-_Gico-ZwMeP2PDJgz1k8YV-M";
+		videos[16] = "1v7IgIF5QYoU1RjZBWmRG3BZPIZ1TSBJ9";
+		videos[17] = "1Jn3IBJXDjM7-iyHKo_HKcq4MzgwmwhBv";
+		videos[18] = "14IB4F2qfMbEZ-KXRIV6MaJxd_iSDlRkV";
+		videos[19] = "1QqSSxtsPpJW9L-QchJzy1PTOFXD5y35P";
+		videos[20] = "1bFvyzPoZttqBzXxFIBTakSAYYDGNeN5c";
+		videos[21] = "1BJ4J9C8T6LhS9owKjbmy4DIzkBl1I-j7";
+		videos[22] = "18bKbIdnH8CayeM6yG9n5eshdCjEb39Eb";
+		videos[23] = "1GepsJWoujqRUU_MBBzVj5ZYU7Lk669Sy";
+		videos[24] = "1sdLMbEEjSN4D5nZnsVtIhaW_vrN-NTzC";
+		videos[25] = "16oFGPk-wRUaO3a54dItKaFFZy3mPZJM8";
+		videos[26] = "16oFGPk-wRUaO3a54dItKaFFZy3mPZJM8";
+		videos[27] = "1DgOskyUqyH35ELtNf7EI0K3Y-eRgjnII";
+		videos[28] = "1qdhTHG0BIHb9iiybW2zuumpHfygBIuaI";
+		videos[29] = "1g8CIIGAfn32D4PVaBWfyXFTvlg_YMftV";
+		videos[30] = "1_xFXA-f3zGBkGfVBE7yHXe-qxu3RPu8N";
+
+		//seekVideo(5);
+		function seekVideo(index){
+			currentIndex = index;
+			var curSource = document.querySelector("#curSource");
+			var preloader = document.querySelector("#preloader");
+
+			var path = "https://drive.google.com/uc?export=download&id=";
+			var curPath = path + videos[index];
+			var prePath = path + videos[index+1];
+			
+			curSource.setAttribute("src", curPath);
+			preloader.setAttribute("src", prePath);
+
+			var video = document.querySelector("#video");
+			video.load();
+			video.play();
+			var ww = document.querySelector("#ww");
+			ww.load();
+		}
+		var video = document.querySelector("#video");
+		video.addEventListener("ended", function(){
+			currentIndex = currentIndex +1;
+			console.log(currentIndex);
+			seekVideo(currentIndex);
+		})
+
+		var btn = document.querySelector("#btn");
+		btn.addEventListener("click", function(){
+			var video = document.querySelector("#video");
+			if(btn.textContent == "play"){
+				btn.textContent = "pause";
+				video.play();
+			}
+			else {
+				btn.textContent = "play";	
+				video.pause();
+			}
+		})
+
+		var arrowSeek = document.querySelector("#arrowSeek");
+		arrowSeek.addEventListener("click", function(event){
+			var e = event;
+			var arrowSeek = document.querySelector("#arrowSeek");
+			var relX = e.pageX - arrowSeek.offsetLeft;
+		    var relY = e.pageY - arrowSeek.offsetTop;
+		    
+		    var current = document.querySelector(".current");
+		    current.style.width = (relX+2) + "px";
+
+		    var count = relX+2;
+		    var index = parseInt(count/10);
+		    seekVideo(index);
+		})
 	</script>
 </html> 
