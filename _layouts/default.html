@@ -4,50 +4,34 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1" />
-    <meta name="description" content="Logic over Instinct; keep learning and exercising is the only best way to deal with any kind of future. See you in 10 years, 2027.">
+    <meta name="description" content="what is interesting in the world">
     <link rel="shortcut icon" type="image/png" href="/assets/image/peanut.png">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/theme_mod.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>Love2017.life</title>
+    <title>what is interesting in the world | PG1E</title>
   </head>
 
   <body>
-
-    <header>
+    <!-- <header>
       <div class="container">
-        <h1>Love2017.life</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <nav>
           <ul>
-            <!-- <li><a href="/"><img src="/assets/image/peanut.png"  />项目表</a></li>
-            <li><a href="/world/">世界万象</a></li>
-            <li><a href="/English/">英语文章</a></li>
-            <li><a href="/webui/">前端代码</a></li> -->
+            
+            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <li><a href="/about/">关于</a></li>
+            <li><a href="/donate/">赞助</a></li>
+            <li><a href="/misc/">杂项</a></li> 
+           
           </ul>
         </nav>
       </div>
-    </header>
+    </header> -->
 
     <div class="container">
       <section id="main_content">
+        <h1>PG1E</h1>
         {{ content }}
-      </section>
-      <hr/>
-      <h5>使用评论来讨论和提问，不要写“顶，赞，很好的文章”这些评论</h5>
-      <div id="disqus_thread"></div>
-      <script>
-      var disqus_config = function () {
-        this.page.url = "http://love2017.life{{ page.url }}"; 
-        this.page.identifier = "{{ page.url }}";
-      };
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//love2017-life.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-                                      
+      </section>                      
     </div>
 
     <script>
@@ -58,7 +42,6 @@
 
       ga('create', 'UA-92075113-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </body>
 </html>
