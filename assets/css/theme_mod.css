@@ -30,6 +30,10 @@ a:hover {
 	color:orange;
 }
 
+#main_content {
+	margin-top:30px;
+}
+
 #main_content h4 {
 	font-size: 16px; 
 }
