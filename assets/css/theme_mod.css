@@ -39,7 +39,7 @@ a:hover {
 }
 
 #main_content hr {
-	margin: 20px;
+	margin: 20px 0px;
 	border-bottom: 1px dashed #bcecdc;
     color: #cccccc;
 }
