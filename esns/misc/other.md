@@ -25,3 +25,8 @@
 
 	- https://www.vox.com/platform/amp/2016/6/6/11854588/numb-arm-sleep
 
+```javascript
+if (isAwesome){
+  return true
+}
+```
