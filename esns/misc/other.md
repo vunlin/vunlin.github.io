@@ -26,7 +26,82 @@
 	- https://www.vox.com/platform/amp/2016/6/6/11854588/numb-arm-sleep
 
 ```javascript
-if (isAwesome){
-  return true
+// **** javascript function is speical/function object that can be run/invoked with ()
+// **** function need () to invoke, otherwise it is just a special/function object
+// **** Functions are objects, just with an additional, special capability of being invokable:  ---- from the Ninja Javascript book
+
+var daping = function() {
+	var i = 1;
+	return {
+		value: function(){
+			return i++;
+		}
+	}
+}
+
+// same as before
+function daping() {
+	var i = 1;
+	return {
+		value: function(){
+			return i++;
+		}
+	}
+}
+
+daping.age = 20;
+daping.height = 5.7;
+daping.weight = 120;
+
+daping.prototype.isGood = true;
+
+var pp = daping();
+pp.value();
+pp.value();
+pp.value();
+
+// or immediate invoke
+
+var c = (function(){
+	var i = 1;
+	return {
+		value: function(){
+			return i++;
+		}
+	}
+})();
+
+// step by step invo
+// anynomous funciton name
+
+var d = function(){
+	var i = 1;
+	return {
+		value: function(){
+			return i++;
+		}
+	}
+}
+d();
+
+// name by itself
+var si = si();
+function si(){
+	var i = 1;
+	return {
+		value: function(){
+			return i++;
+		}
+	}	
+}
+
+// function expression - Immediately Invoked -> dont exit on window global scope
+(function ne_win(){
+	console.log("tt");
+})();
+
+// function declaration -> exist on window global scope
+function e_win(){
+	console.log("bb");
 }
 ```
