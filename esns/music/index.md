@@ -1,4 +1,6 @@
-### 听什么现在 (What Now)
+#### 最近听什么 (What Now)
+
+- Houndmouth - Casino (Bad Things) & Penitentiary
 
 ### 欧美音乐列表
 
@@ -32,6 +34,10 @@
 
 #### Fool Garden
 	- Lemon Tree
+
+#### Houndmouth
+	- Casino
+	- Penitentiary
 
 #### Imagine Dragons	
 	- Demon
@@ -74,6 +80,9 @@
 
 #### Portugal The Man
 	- All My People
+
+#### Regina Spektor
+	- On the Radio
 
 #### Queen
 	- Under Pressure
