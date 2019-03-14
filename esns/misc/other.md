@@ -25,7 +25,7 @@
 
 	- https://www.vox.com/platform/amp/2016/6/6/11854588/numb-arm-sleep
 
-```
+```javascript
 // **** javascript function is speical/function object that can be run/invoked with ()
 // **** function need () to invoke, otherwise it is just a special/function object
 // **** Functions are objects, just with an additional, special capability of being invokable:  ---- from the Ninja Javascript book
