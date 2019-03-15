@@ -1,223 +1,222 @@
 #### 最近听什么 (What Now)
-
-- Houndmouth - Casino (Bad Things) & Penitentiary
+1. Houndmouth - Casino (Bad Things) & Penitentiary
 
 ### 欧美音乐列表
 
 #### Agnes Obel
-	- Just So
-	- Riverside
+1. Just So
+1. Riverside
 
 #### Avril Lavigne
-	- Complicated
-	- Girlfriend (Remix)
-	- Hot
-	- My Happy Ending
-	- Rock N Roll
-	- The Best Damn Thing
+1. Complicated
+1. Girlfriend (Remix)
+1. Hot
+1. My Happy Ending
+1. Rock N Roll
+1. The Best Damn Thing
 
 #### Bondie
-	- Heart of Glass
+1. Heart of Glass
 
 #### BOY
-	- This is the Beginning
-	- Little Numbers
+1. This is the Beginning
+1. Little Numbers
 
 #### Cat Power
-	- Maybe Not
+1. Maybe Not
 
 #### Edward Sharpe and the Magnetic Zeros
-	- Home
+1. Home
 
 #### Florence + The Machine
-	- What the Water Gave Me
+1. What the Water Gave Me
 
 #### Fool Garden
-	- Lemon Tree
+1. Lemon Tree
 
 #### Houndmouth
-	- Casino
-	- Penitentiary
+1. Casino
+1. Penitentiary
 
 #### Imagine Dragons	
-	- Demon
-	- Radioactive
+1. Demon
+1. Radioactive
 
 #### Ingrid Michaelson
-	- Die Alone
-	- Everybody
+1. Die Alone
+1. Everybody
 
 #### Joan Jett
-	- I Love Rock and Roll
+1. I Love Rock and Roll
 
 #### Katie Herzig
-	- Forevermore
-	- Hey Na Na
-	- Holding Us Back
-	- Hologram
-	- I Will Follow
+1. Forevermore
+1. Hey Na Na
+1. Holding Us Back
+1. Hologram
+1. I Will Follow
 
 #### Kesha
-	- Timber
+1. Timber
 
 #### Lana Del Rey
-	- Dark Paradise
-	- Summertime Sadness
+1. Dark Paradise
+1. Summertime Sadness
 
 #### Linkin Park
-	- Castle of Glass
+1. Castle of Glass
 
 #### Of Monsters and Men
-	- King and Lionheart
-	- Little Talks
+1. King and Lionheart
+1. Little Talks
 
 #### P!nk
-	- Blow Me One Last Kiss
-	- Fucking Perfect
+1. Blow Me One Last Kiss
+1. Fucking Perfect
 
 #### Paramore
-	- Brick By Boring Brick
+1. Brick By Boring Brick
 
 #### Portugal The Man
-	- All My People
+1. All My People
 
 #### Regina Spektor
-	- On the Radio
+1. On the Radio
 
 #### Queen
-	- Under Pressure
+1. Under Pressure
 
 #### Simple Plan
-	- Welcome to My Life
+1. Welcome to My Life
 
 #### The Cranberries
-	- Ode To My Family
+1. Ode To My Family
 
 #### The Neighbourhood
-	- Sweater Weather
+1. Sweater Weather
 
 #### The Offspring
-	- The Kids Aren't Alright
+1. The Kids Aren't Alright
 
 #### TV on the Radio
-	- Wolf Like Me
+1. Wolf Like Me
 
 #### VNV Nation
-	- Illusion
+1. Illusion
 
 #### Wiretree
-	- Big Coat
+1. Big Coat
 
 ### 中国音乐列表
 
 #### Beyond
-	- 不再犹豫
+1. 不再犹豫
 
 #### 乌兰托娅
-	- 我要去西藏
-	- 套马杆
+1. 我要去西藏
+1. 套马杆
 
 #### 任贤齐
-	- 一个人
-	- 兄弟
-	- 死不了
+1. 一个人
+1. 兄弟
+1. 死不了
 
 #### 冰块先生
-	- 天枰座
+1. 天枰座
 
 #### 凤凰传奇
-	- 我从草原来
-	- 最炫民族风
-	- 自由飞翔
+1. 我从草原来
+1. 最炫民族风
+1. 自由飞翔
 
 #### 大飞 (Da Fay)
-	- 伙夫D
-	- 夏天
-	- 把我给崩了
-	- 这事都怪你
+1. 伙夫D
+1. 夏天
+1. 把我给崩了
+1. 这事都怪你
 
 #### 好妹妹乐队
-	- 你飞到城市另一边
+1. 你飞到城市另一边
 
 #### 孙燕姿
-	- 开始懂了
+1. 开始懂了
 
 #### 宋冬野
-	- 鸽子
+1. 鸽子
 
 #### 岛屿心情
-	- 当一切结束时
+1. 当一切结束时
 
 #### 左卡乐队
-	- 姑娘姑娘(新版)
+1. 姑娘姑娘(新版)
 
 #### 张悬
-	- Scream
-	- 信任的樣子
-	- 张三的歌(Cover)
+1. Scream
+1. 信任的樣子
+1. 张三的歌(Cover)
 
 #### 張震嶽
-	- 想太多
-	- 路口
+1. 想太多
+1. 路口
 
 #### 李宗盛
-	- 山丘
+1. 山丘
 
 #### 海龟先生
-	- 男孩别哭
+1. 男孩别哭
 
 #### 爽子与瓷乐队
-	- 没开玩笑
+1. 没开玩笑
 
 #### 縱貫線
-	- 亡命之徒
+1. 亡命之徒
 
 #### 羽果
-	- 跳完这支舞吧 我的恋人
+1. 跳完这支舞吧 我的恋人
 
 #### 范玮琪
-	- 那些花儿
+1. 那些花儿
 
 #### 莫文蔚
-	- 盛夏的果实
-	- 真的嗎
+1. 盛夏的果实
+1. 真的嗎
 
 #### 许美静
-	- 城里的月光
-	- 都是夜归人
+1. 城里的月光
+1. 都是夜归人
 
 #### 许冠杰
-	- 沧海一声笑
+1. 沧海一声笑
 
 #### 许巍
-	- 曾经的你
-	- 蓝莲花
-	- 那一年
+1. 曾经的你
+1. 蓝莲花
+1. 那一年
 
 #### 许茹芸
-	- Ending
-	- 独角戏
+1. Ending
+1. 独角戏
 
 #### 谣乐队
-	- 唱歌的孩子
+1. 唱歌的孩子
 
 #### 逃跑计划
-	- 夜空中最亮的星
-	- Chemical Bus
+1. 夜空中最亮的星
+1. Chemical Bus
 
 #### 郝云
-	- 活着
-	- 生日不快乐
-	- 突然想到理想这个词
+1. 活着
+1. 生日不快乐
+1. 突然想到理想这个词
 
 #### 陈绮贞
-	- Self
+1. Self
 
 #### 马条
-	- 我想我想 (洪启/马条/艾尔肯)
+1. 我想我想 (洪启/马条/艾尔肯)
 
 #### 魏如萱
-	- 香格里拉
+1. 香格里拉
 
 
 
