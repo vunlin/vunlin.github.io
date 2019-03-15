@@ -12,9 +12,14 @@
 	}
 
 </style>
+<pre id="scriptFile"></pre>
 
 ```javascript
-<pre id="scriptFile"></pre>
+var c = "b";
+var d = "t";
+function bb(){
+	return b;
+}
 ```
 
 <script src="./jquery-3.3.1.js"></script>
