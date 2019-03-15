@@ -1,5 +1,6 @@
 #### 最近听什么 (What Now)
-1. Houndmouth - Casino (Bad Things) & Penitentiary
+1. [Houndmouth - Casino (Bad Things) & Penitentiary](https://www.youtube.com/watch?v=1FcGLZ0Q14s)
+1. [Houndmouth - Northeast Texas Women - 3/14/2013 - Riverview Bungalow](https://www.youtube.com/watch?v=gMcIKqcx8_Q)
 
 ### 欧美音乐列表
 
@@ -81,7 +82,7 @@
 1. All My People
 
 #### Regina Spektor
-1. On the Radio
+1. [On the Radio](https://www.youtube.com/watch?v=tHAhnJbGy9M)
 
 #### Queen
 1. Under Pressure
