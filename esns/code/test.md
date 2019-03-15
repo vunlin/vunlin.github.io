@@ -8,17 +8,16 @@
 		padding-right:10px;
 		display:inline-block;
 		height:10px;
-		width:20px;
+		width:40px;
 	}
 
 </style>
 <pre id="scriptFile"></pre>
 
 ```javascript
-var c = "b";
-var d = "t";
-function bb(){
-	return b;
+function syntaxhighlight(){
+	var a = b + c;
+	console.log(c);
 }
 ```
 
