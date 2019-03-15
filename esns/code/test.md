@@ -1,6 +1,10 @@
 <style>
 	pre {
-		counter-reset: sourcecode
+		counter-reset: sourcecode;
+		-moz-tab-size:4;
+		-o-tab-size:4;
+		tab-size:4;
+		font-size:12px;
 	}
 	pre code:before {
 		content: counter(sourcecode);
@@ -8,10 +12,12 @@
 		padding-right:10px;
 		display:inline-block;
 		height:10px;
-		width:40px;
+		width:35px;
 	}
 
 </style>
+https://www.sitepoint.com/best-practice-for-code-examples/
+	
 <pre id="scriptFile"></pre>
 
 ```javascript
