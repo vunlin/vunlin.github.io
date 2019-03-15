@@ -8,19 +8,19 @@
 	* 即使得到退款后，消费者没有义务退回商品
 	* 在初期客户怕被欺诈而不喜欢使用信用卡，为了推广信用卡于是创建了这个工具
 
-https://chargebacks911.com/chargebacks/
+	* [https://chargebacks911.com/chargebacks/](https://chargebacks911.com/chargebacks/)
 
 
 #### 军衔和軍事組織的链接
 	* 部队相关的英语单词相当让人摸不着头脑
 	* 部队单元的人员配置
 
-https://zh.wikipedia.org/wiki/军衔
-https://zh.wikipedia.org/wiki/軍事組織
+	* [https://zh.wikipedia.org/wiki/军衔](https://zh.wikipedia.org/wiki/军衔)
+	* [https://zh.wikipedia.org/wiki/軍事組織](https://zh.wikipedia.org/wiki/軍事組織)
 
 #### 有没有睡觉醒来 发现整个手臂麻木 变成"僵尸手"
 	* 仔细想想，会不会让你担心害怕整个手臂坏死
 	* 随着一阵阵麻木针刺的感觉，手臂慢慢从软趴趴好像没有骨头的状态中恢复知觉
 	* 身体会在你受到永久伤害之前唤醒你，但是如果你醉的不省人事，可能影响你的身体保护机制，造成伤害
 
-https://www.vox.com/platform/amp/2016/6/6/11854588/numb*arm*sleep
+	* [https://www.vox.com/platform/amp/2016/6/6/11854588/numb*arm*sleep](https://www.vox.com/platform/amp/2016/6/6/11854588/numb*arm*sleep)
