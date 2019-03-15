@@ -10,13 +10,16 @@
 
 <a href="https://chargebacks911.com/chargebacks/">https://chargebacks911.com/chargebacks/</a>
 
+<hr/>
 
 #### 军衔和軍事組織的链接
-* 部队相关的英语单词相当让人摸不着头脑
-* 部队单元的人员配置
+	* 部队相关的英语单词相当让人摸不着头脑
+	* 部队单元的人员配置
 
-https://zh.wikipedia.org/wiki/军衔
+[https://zh.wikipedia.org/wiki/军衔](https://zh.wikipedia.org/wiki/军衔)
 [https://zh.wikipedia.org/wiki/軍事組織](https://zh.wikipedia.org/wiki/軍事組織)
+
+<hr/>
 
 #### 有没有睡觉醒来 发现整个手臂麻木 变成"僵尸手"
 	* 仔细想想，会不会让你担心害怕整个手臂坏死
