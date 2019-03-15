@@ -12,10 +12,9 @@
 	}
 
 </style>
-<pre id="scriptFile"></pre>
 
 ```javascript
-var c = "b";
+<pre id="scriptFile"></pre>
 ```
 
 <script src="./jquery-3.3.1.js"></script>
