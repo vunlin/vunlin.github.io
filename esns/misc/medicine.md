@@ -8,4 +8,4 @@
 	- 吞咽其实是非常复杂的机制，要20多对肌肉和10多对的脑神经完美配合才可完成
 	- 脑部神经受损很可能导致吞咽障碍，比如头部颈部癌症接受放射性治疗后
 
-	- https://mosaicscience.com/story/dysphagia-swallowing-disorders/
+[https://mosaicscience.com/story/dysphagia-swallowing-disorders/](https://mosaicscience.com/story/dysphagia-swallowing-disorders/)
