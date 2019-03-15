@@ -16,7 +16,7 @@
 	}
 
 </style>
-https://www.sitepoint.com/best-practice-for-code-examples/
+[best practice for code example](https://www.sitepoint.com/best-practice-for-code-examples/)
 	
 <pre id="scriptFile"></pre>
 
