@@ -16,7 +16,7 @@
 1. 部队相关的英语单词相当让人摸不着头脑
 1. 部队单元的人员配置
 
-[https://zh.wikipedia.org/wiki/军衔](https://zh.wikipedia.org/wiki/军衔)
+[https://zh.wikipedia.org/wiki/军衔](https://zh.wikipedia.org/wiki/军衔)<br/>
 [https://zh.wikipedia.org/wiki/軍事組織](https://zh.wikipedia.org/wiki/軍事組織)
 
 <hr/>
