@@ -1,3 +1,19 @@
+<style>
+	pre {
+		counter-reset: sourcecode
+	}
+	pre code:before {
+		content: counter(sourcecode);
+		counter-increment: sourcecode;
+		padding-right:10px;
+		display:inline-block;
+		height:10px;
+		width:20px;
+	}
+
+</style>
+<pre id="scriptFile"></pre>
+
 ```javascript
 var c = "b";
 ```

@@ -24,7 +24,3 @@
 	- 身体会在你受到永久伤害之前唤醒你，但是如果你醉的不省人事，可能影响你的身体保护机制，造成伤害
 
 	- https://www.vox.com/platform/amp/2016/6/6/11854588/numb-arm-sleep
-
-```javascript
-
-```
