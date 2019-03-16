@@ -1,6 +1,6 @@
 ### 现在干什么 (What Now)
 
-#### 最近听什么 (What Now) [->更多音乐](./music/index)
+#### 最近听什么音乐 [->更多音乐](./esns/music/index)
 
 #### Houndmouth
 1. [Casino (Bad Things) & Penitentiary](https://www.youtube.com/watch?v=1FcGLZ0Q14s)
