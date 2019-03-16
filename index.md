@@ -1,6 +1,4 @@
-### 现在干什么 (What Now)
-
-#### 最近听什么音乐 [->更多音乐](./esns/music/index)
+### 最近听什么音乐 [->更多音乐](./esns/music/index)
 1. [谢春花 - 借我](https://www.youtube.com/watch?v=jKUo0KmN2ws)
 1. [Houndmouth - Casino (Bad Things) & Penitentiary](https://www.youtube.com/watch?v=1FcGLZ0Q14s)
 1. [Houndmouth - Northeast Texas Women - 3/14/2013 - Riverview Bungalow](https://www.youtube.com/watch?v=gMcIKqcx8_Q)
