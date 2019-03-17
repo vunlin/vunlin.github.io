@@ -1,11 +1,10 @@
-<a id="entry3"></a>
 #### 为什么医生无视事实的根据，进行不适当的医疗程序
 1. 医生没有跟进新的证据知识
 1. 适当的医疗程序不挣钱，或者不流行受欢迎
 
 [https://www.propublica.org/article/when-evidence-says-no-but-doctors-say-yes](https://www.propublica.org/article/when-evidence-says-no-but-doctors-say-yes)
 
-<a id="entry2"></a>
+<a id="entry_myopia_young"></a>
 #### 过久使用屏幕导致大量年青人的近视
 1. 40%的北美人口有近视，欧洲的年轻人近视42%左右，差不多是老年人口的两倍
 1. 高度近视增加严重眼疾病的几率，视网膜破裂(21倍+)，青光眼(40倍)或白内障(6倍).
@@ -15,7 +14,6 @@
 
 [https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
 
-<a id="entry1"></a>
 #### 吞咽障碍 Dysphagia
 1. Samantha Anderson 在她39岁的某天早餐的时候，突然没有办法吃任何东西，三年半后通过大量治疗才可以吃一些东西
 1. 感觉像24小时被人实施水刑一样，有吞咽障碍的病人容易被食物或唾液哽噎住，有很高的窒息的风险

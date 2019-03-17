@@ -1,5 +1,5 @@
 ### 最近读什么文章
-1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./esns/misc/medicine#entry2) [(->评论)](./esns/comment/entry2)
+1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./esns/misc/medicine#entry_myopia_young) [(->评论)](./esns/comment/entry_myopia_young)
 
 ### 最近听什么音乐 [->更多音乐](./esns/music/index)
 2. [大飞](https://site.douban.com/df/room/414454/)

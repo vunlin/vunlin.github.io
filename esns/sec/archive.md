@@ -1,5 +1,7 @@
 ### 备份
 
+1. [What Doctors Want from End of Life Care](https://www.wnyc.org/story/265564-doctors-end-life-care/)
+1. [Google AdSense 生态圈里的 3 种创收方式](https://livid.v2ex.com/essays/2018/05/18/adsense-methods.html)
 1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./misc/medicine#entry2) [(->原文资料)](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
 1. [巧妙安排家具，专业游戏队员的卧室](https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_1600/xyqwrtwfreznvncscuu6.jpg)
 1. [像素密度](https://pixensity.com/list/laptop/)
