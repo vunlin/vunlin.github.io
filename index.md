@@ -14,7 +14,7 @@
 
 ### 医学文章
 
-1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./misc/medicine#entry2) [(->原文资料)](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
+1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./esns/misc/medicine#entry2) [(->原文资料)](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
 
 <!-- <div class="bookmarks">
 
