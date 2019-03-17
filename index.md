@@ -1,5 +1,4 @@
 ### 最近听什么音乐 [->更多音乐](./esns/music/index)
-1. [谢春花 - 借我](https://www.youtube.com/watch?v=jKUo0KmN2ws)
 2. [大飞](https://site.douban.com/df/room/414454/)
 1. [Houndmouth - Casino (Bad Things) & Penitentiary](https://www.youtube.com/watch?v=1FcGLZ0Q14s)
 1. [Houndmouth - Northeast Texas Women - 3/14/2013 - Riverview Bungalow](https://www.youtube.com/watch?v=gMcIKqcx8_Q)
@@ -15,7 +14,7 @@
 
 ### 医学文章
 
-1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./misc/medicine#entry2) [原文资料](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
+1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./misc/medicine#entry2) [(->原文资料)](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
 
 <!-- <div class="bookmarks">
 

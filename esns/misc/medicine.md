@@ -12,7 +12,12 @@
 <hr/>
 
 <a id="entry2"></a>
-#### 过久使用屏幕导致大量年青人的近
+#### 过久使用屏幕导致大量年青人的近视
+1. 40%的北美人口有近视，欧洲的年轻人近视42%左右，差不多是老年人口的两倍
+1. 高度近视增加严重眼疾病的几率，视网膜破裂(21倍+)，青光眼(40倍)或白内障(6倍).
+1. 高度近视导致眼球变长，拉伸视网膜，导致视网膜变薄，视网膜疾病可能性增加
 1. 高度近视的人有50%失明的高风险
+1. 基因是近视的重要因素，但是环境因素也很重要，近年使用屏幕时间大量增长有重要影响
+
 
 [https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
