@@ -12,6 +12,10 @@
 
 ### 最近看什么电影 [->更多电影](./esns/movie/index)
 
+### 医学文章
+
+1. [过久使用屏幕导致大量年青人的近视，高度近视的人有50%失明的高风险](./misc/medicine#entry2)
+
 <!-- <div class="bookmarks">
 
 <h3>工具</h3>

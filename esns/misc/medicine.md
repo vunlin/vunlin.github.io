@@ -1,3 +1,4 @@
+<a id="entry1"></a>
 #### 吞咽障碍 Dysphagia
 1. Samantha Anderson 在她39岁的某天早餐的时候，突然没有办法吃任何东西，三年半后通过大量治疗才可以吃一些东西
 1. 感觉像24小时被人实施水刑一样，有吞咽障碍的病人容易被食物或唾液哽噎住，有很高的窒息的风险
@@ -10,3 +11,8 @@
 
 <hr/>
 
+<a id="entry2"></a>
+#### 过久使用屏幕导致大量年青人的近
+1. 高度近视的人有50%失明的高风险
+
+[https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html](https://medicalxpress.com/news/2019-02-screen-linked-epidemic-myopia-young.html)
