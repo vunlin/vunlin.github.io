@@ -35,7 +35,12 @@ a:hover {
 }
 
 .container {
-	max-width:800px;
+	max-width:640px;
+}
+
+.bookmarks {
+	max-width:120px;
+	float:right;
 }
 
 nav {
