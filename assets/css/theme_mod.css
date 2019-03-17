@@ -1,3 +1,7 @@
+.container {
+	width:800px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -8,6 +12,7 @@ a:hover {
 
 #main_content {
 	margin-top:30px;
+	max-width:640px;
 }
 
 #main_content h4 {
@@ -34,13 +39,11 @@ a:hover {
 	height: 100%;
 }
 
-.container {
-	max-width:640px;
-}
-
 .bookmarks {
-	max-width:120px;
-	float:right;
+	width:120px;
+	right:0px;
+	top:120px;
+	position:absolute;
 }
 
 nav {
