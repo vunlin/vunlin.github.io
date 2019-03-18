@@ -38,6 +38,10 @@ a:hover {
 	max-width:800px;
 }
 
+:target {
+	color:red;
+}
+
 nav {
 	margin-top:10px;
 }
