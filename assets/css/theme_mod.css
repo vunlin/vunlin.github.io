@@ -39,10 +39,11 @@ a:hover {
 }
 
 :target {
-	width:300px;
-	height:10px;
+	width:95%;
+	height:3px;
 	display:block;
-	animation: highlight 1s ease;     
+	animation: highlight 1s ease;   
+	animation-fill-mode: forwards;  
 }
 @keyframes highlight {
   0% { 	background:red; }
