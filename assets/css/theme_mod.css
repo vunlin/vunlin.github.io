@@ -42,7 +42,7 @@ a:hover {
 	width:95%;
 	height:3px;
 	display:block;
-	animation: highlight 1s ease;   
+	animation: highlight 10s ease;   
 	animation-fill-mode: forwards;  
 }
 @keyframes highlight {
