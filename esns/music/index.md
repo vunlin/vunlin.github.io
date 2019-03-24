@@ -138,11 +138,6 @@
 1. [我要去西藏](https://www.youtube.com/watch?v=ZaGUQq7C1jQ)
 1. [套马杆](https://www.youtube.com/watch?v=pM2w6MzMsac)
 
-#### 任贤齐
-1. [兄弟](https://www.youtube.com/watch?v=xTjrJmcSjzM)
-1. [一个人](https://www.youtube.com/watch?v=cNo7gwNIG5Y)
-1. [死不了](https://www.youtube.com/watch?v=wAbiWdBs8LM)
-
 #### 冰块先生
 1. [天枰座](https://www.youtube.com/watch?v=tOjshWovcLs)
 
@@ -174,10 +169,6 @@
 1. [Scream](https://www.youtube.com/watch?v=-6a8BDmdxkU)
 1. [信任的樣子](https://www.youtube.com/watch?v=fz3cM5w6kSY)
 1. [张三的歌(Cover)](https://www.youtube.com/watch?v=Bd57_isq2uM)
-
-#### 張震嶽
-1. [路口](https://www.youtube.com/watch?v=49xsEr77YCc)
-1. [想太多](https://www.youtube.com/watch?v=3QWU3MyAxlU)
 
 #### 海龟先生
 1. [男孩别哭](https://www.youtube.com/watch?v=qWFMo8X6D50)

@@ -15,6 +15,10 @@
 		width:35px;
 	}
 
+	pre code span.esns {
+		color:red;
+	}
+
 </style>
 [best practice for code example](https://www.sitepoint.com/best-practice-for-code-examples/)
 	
@@ -23,7 +27,7 @@
 ```javascript
 function syntaxhighlight(){
 	var a = b + c;
-	console.log(c);
+	console.log(c);ss
 }
 ```
 
@@ -33,7 +37,7 @@ function syntaxhighlight(){
 $( "#scriptFile" ).load("./sizzle.js", function() {
   var _pre = $("#scriptFile");
   var styled_pre = "<code class='line'>"+(_pre.text().split("\n").filter(Boolean).join("</code>\n<code class='line'>"))+"</code>";
+  styled_pre = styled_pre.replace(/(\/\/esns[^\n]+\n)/ig, "<span class='esns'>$1</span>");
   _pre.html(styled_pre);
-  console.log(styled_pre);
 });
 </script>
