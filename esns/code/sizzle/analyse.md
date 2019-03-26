@@ -1,13 +1,3 @@
-Secret Secret Secret 详尽的代码解读，暂时留一手，这样子才有问答流量，而且自己不会忘记
-
-Write Explaination for each line of comment -> use example and all the detail that needed if it is not clear enough..
-
-self-explainatory  ----------> COOL....  (for example <251> 如果是 document context 的话 就不要 测试 contains)
-
-不是 newContext，就代表无需测试 contains。。。。。。。。。
-
-不写下来，以后就会忘记
-
 elementMatcher 作为 pre-post Filter 得出集合 加上 matcher 和 postFinder 就变成 setMatcher
 
 =====================================================>
@@ -97,9 +87,6 @@ Sizzle.compile("#bb te.b[name='what']:last > de:even .cp div:first")
 
 使用 seed 的 parameter 就是 setFilter (setMatcher)， 使用 elem 的 paramater 就是 普通的 filter (elementMatcher)
 
-------------> unit test 有趣和特殊 例子 ------------------> <soFar 1417>
-<selector.js - code number line>
+------------> unit test 有趣和特殊 例子 ------------------>
 
-interesting cases: <212> <332> <438> <1020-1023> <1066>
-
-
+interesting cases: <212> <332> <438>
