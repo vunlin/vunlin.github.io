@@ -1,0 +1,49 @@
+Object 
+	Event
+		UIEvent
+			CompositionEvent
+			KeyboardEvent
+		ErrorEvent
+		MessageEvent
+	EventTarget
+		Node
+			Element
+				HTMLElement
+					HTMLMediaElement
+						HTMLAudioElement
+						HTMLVideoElement
+					HTMLSelectElement
+					HTMLInputElement
+					HTMLIFrameElement
+			Document
+			DocumentFragment
+		Window 
+		XMLHttpRequest
+		MessagePort
+	Navigator (window.navigator)
+	Location (window.location)
+	URL
+	DOMParser
+	Range
+	Selection
+	Error
+	Function
+	String
+	CSSStyleDeclaration
+	Math
+	Number
+	DOMTokenList (Element.prototype.classList)
+	DOMImplementation
+	Array
+	Map
+	WeakMap
+	Set
+	weakSet
+	JSON
+	Date
+	RegExp
+	Reflect
+	Proxy
+	Symbol
+	Promise
+	MessageChannel
