@@ -1,0 +1,85 @@
+<html>
+	<body>
+		<style>
+			#fine{
+				width:269px;
+				height:0px;
+				font-size:15px;
+				border:1px solid rgba(99, 90, 90, 0.8);
+				border-top:transparent;
+				animation-duration: 1.5s;
+				animation-fill-mode: forwards;
+			}
+			#fine.down {
+				animation-name: slideDown;
+			}
+			#fine.up {
+				animation-name: slideUp;
+			}
+			#me {
+				border:1px solid black;
+				border-bottom:transparent;	
+				width:271px;
+				outline:0;
+				padding-left:10px;
+			}
+			@keyframes slideDown {
+			  0% {
+			    height:0px;
+			  }
+			  50% {
+			  	height:420px;
+			  }
+			  80% {
+			  	height:420px;
+			  	border-width: 10px;
+			  	border-radius: 0px;
+			  }
+			  100% {
+			    height:420px;
+			    border-width: 10px;
+			    border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+				border-top-right-radius: 10px;
+			  }
+			}
+			@keyframes slideUp {
+			  0% {
+			    height:420px;
+			    border-width: 10px;
+			    border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+				border-top-right-radius: 10px;
+			  }
+
+			  30% {
+			  	height:420px;
+			  	border-width: 10px;	
+			  }
+
+			  50% {
+			  	height:420px;	
+			  }
+
+			  100% {
+			    height:0px;
+			  }
+			}
+		</style>
+
+		<input id="me" placeholder="datepicker"></input>
+		<br/><img id="fine" src="datePicker.png" />
+
+		<script src="jquery.js"></script>
+		<script>
+			var fine = $("#fine");
+			$("#me").focusout(function(){
+				fine.addClass("up").removeClass("down");
+			})
+			.focus(function(){
+				fine.addClass("down").removeClass("up");
+			})
+			
+		</script>
+	</body>
+</html>
