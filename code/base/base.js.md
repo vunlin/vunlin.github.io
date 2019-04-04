@@ -1,6 +1,5 @@
 ### Javascript
-
-
+<pre>
 Object
 	(constructor)
 	.freeze
@@ -387,5 +386,4 @@ LibraryVersions
 	plyr (v3_5_2)
 	Jquery (v3_3_1)
 
-
-
+</pre>

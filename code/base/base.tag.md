@@ -111,13 +111,13 @@ picture, source - provide versions of an image for different display/device scen
 
 #### Interactive elements
 
-details, summary - 下滑菜单细表 reates a disclosure widget in which information is visible only when the widget is toggled
-dialog - 对话弹窗
-menu, menuitem - 菜单
+1. details, summary - 下滑菜单细表 reates a disclosure widget in which information is visible only when the widget is toggled
+1. dialog - 对话弹窗
+1. menu, menuitem - 菜单
 
 #### Web Components
 
-template - 模板
+1. template - 模板
 
 #### SVG
 

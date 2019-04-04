@@ -40,6 +40,7 @@ Object
 		Window 
 		XMLHttpRequest
 		MessagePort
+		MediaSource
 	Navigator (window.navigator)
 	Location (window.location)
 	URL
