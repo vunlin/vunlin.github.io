@@ -1,5 +1,11 @@
 ### HTML Tags
 
+1. <!DOCTYPE html> 必须有这个才可避免 quirk mode
+
+#### main root
+
+1. html - HTMLHtmlElement: 
+
 a
 abbr
 acronym
@@ -35,7 +41,6 @@ figcaption
 figure
 footer
 form
-g - <svg>
 h1
 h2
 h3
@@ -45,7 +50,6 @@ h6
 header
 hgroup
 hr
-html
 i
 iframe
 img
@@ -65,9 +69,7 @@ optgroup
 option
 output
 p
-path <svg>
 picture
-polygon <svg>
 pre
 progress
 q
@@ -103,3 +105,9 @@ ul
 var
 video
 wbr
+
+svg tags:
+
+polygon
+path
+g

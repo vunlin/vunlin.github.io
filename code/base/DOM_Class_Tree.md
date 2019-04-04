@@ -10,6 +10,7 @@ Object
 		Node
 			Element
 				HTMLElement
+					HTMLHtmlElement
 					HTMLMediaElement
 						HTMLAudioElement
 						HTMLVideoElement
