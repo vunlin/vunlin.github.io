@@ -1,5 +1,5 @@
 ### 100 - 199
 
-#### Vegetables, especially spinach, are good for yo
+#### Vegetables, especially spinach, are good for you
 
-1. Vegetables, spinach, are good for you 加上 副词 especially 修饰 spinach 变成 Vegetables, especially spinach, are good for you, 逗号一般用于加强语气
+1. [Vegetables are good for you] 加上 副词连接词 especially 连接 vegetables 和 spinach 变成 [Vegetables, especially spinach, are good for you] 逗号 , 分隔一般用于加强语气

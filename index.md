@@ -1,10 +1,14 @@
 <!-- flow 流水帐 -->
 
-<!-- 句型分析 -->
-Vegetables, especially spinach, are good for you
+### 句型分析
+#### Vegetables, especially spinach, are good for you
 
-Vegetables, spinach, are good for you 加上 副词 especially 修饰 spinach 变成 Vegetables, especially spinach, are good for you, 逗号一般用于加强语气
+1. [Vegetables are good for you] 加上 副词连接词 especially 连接 vegetables 和 spinach 变成 [Vegetables, especially spinach, are good for you] 逗号 , 分隔一般用于加强语气
 
-<!-- 怎么讲/怎么翻译 -->
+### 怎么讲/怎么翻译
 
-<!-- code analyse -->
+
+
+
+### 代码分析
+

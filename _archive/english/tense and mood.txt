@@ -1,0 +1,46 @@
+英语语法非常随便/english verb tense so arbitrary
+simple past and present perfect tenses are often interchangeable
+$动词语态习惯要靠写
+
+一般现在时(历史现在时Historical present/报道体/叙事体: 新闻报道)
+完成时(可能多次做的事情/已经结束不存在)/一般时(可能单次做的事情/持续存在或做) 有时互换通用
+
+一般过去时
+$限制在过去时间 $时间明确表示 (已经结束/已成的事实)
+**没有可能出现复数的情况** marry/divorce 同样两个人结婚/离婚一般就一次 dead/alive 死或者活 就一次 
+WOW -> we watched the movie 两个人以上一起看的 we (all) have watched the movie 两个人以上(可能)分开看的
+
+现在完成时(完成的状态/完成的次数/完成的时间和)
+$ 超过一次的事情(或可以做超过一次的事情) $次数出现
+$ 有持续到现在时间的事情(或暗示持续到现在/影响现在的语气) $时间出现
+
+**** 注意名词时候可数 很重要 Progress is an uncountable noun: She is making good progress
+**** 注意Verb的单复数来区别
+不同人 同一时间 -> 不同事件 (完成次数大于1)
+同个人 不同时间 -> 不同事件 (完成次数大于1)
+====================================================>
+现在进行时
+$ 持续/未结束 american economy is booming -> 未结束 持续昌盛
+** 目前的暂时情况/短暂进行中的动作行为
+** 将来安排要做的事情(未完成/待做的)  I was packing my stuff
+
+一般现在时
+$ 目前的稳定状态/习惯性行为/周期性的
+** 文章/电影/引用等等
+历史现在时Historical present/报道体/叙事体: 新闻报道
+=====================================================>
+The Zero Conditional: 事实 -> 一般时 100%
+(if + present simple, ... present simple)
+If you heat water to 100 degrees, it boils.
+
+The First Conditional: 同时叙述到两件未来的事情 50%
+(if + present simple, ... will + infinitive)
+If it rains tomorrow, we'll go to the cinema.
+
+The Second Conditional: 理论上的可能性 10%
+(if + past simple, ... would + infinitive)
+If I had a lot of money, I would travel around the world.
+
+The Third Conditional 表示所说的话和事实相反 0%
+(if + past perfect, ... would + have + past participle)
+If I had gone to bed early, I would have caught the train.
