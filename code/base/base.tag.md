@@ -46,7 +46,7 @@
 1. data - **没人用** 给机器/程序使用的数据
 1. dd, dl, dt - definition list
 1. dfn - definition term
-1. dir - The obsolete HTML Directory element (<dir>) is used as a container for a directory of files and/or folders
+1. dir - The obsolete HTML Directory element (dir) is used as a container for a directory of files and/or folders
 1. div - the generic container for flow content
 1. p - a paragraph.
 1. em - marks text that has stress emphasis
