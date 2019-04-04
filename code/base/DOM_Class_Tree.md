@@ -10,13 +10,31 @@ Object
 		Node
 			Element
 				HTMLElement
+					HTMLAnchorElement
 					HTMLHtmlElement
-					HTMLMediaElement
-						HTMLAudioElement
-						HTMLVideoElement
+					HTMLBaseElement
+					HTMLMetaElement
+					HTMLTitleElement
+					HTMLBodyElement
+					HTMLSpanElement
+					HTMLQuoteElement
 					HTMLSelectElement
 					HTMLInputElement
 					HTMLIFrameElement
+					HTMLTimeElement
+					HTMLAreaElement
+					HTMLMapElement
+					HTMLPictureElement
+					HTMLCanvasElement
+					HTMLDataListElement
+					HTMLModElement
+					HTMLTableCaptionElement
+					HTMLDataElement
+					HTMLMediaElement
+						HTMLAudioElement
+						HTMLVideoElement
+					HTMLTrackElement
+					HTMLSourceElement
 			Document
 			DocumentFragment
 		Window 
