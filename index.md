@@ -5,7 +5,7 @@
 1. [电影][蜀山传](/items/esns/movie/2001/The_Legend_of_Zu)
 <div class="videoWrapper">
 	<iframe width="1519" height="554" src="https://www.youtube.com/embed/okaysVWEn-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div><br/>
+</div>
 1. [翻译]"小气"的英语怎么说 - uptight, difficult, nit-picking
 1. [翻译]"大度"的英语怎么说 easy-going
 1. [翻译]"用力"的英语怎么说 strain to pass stool
