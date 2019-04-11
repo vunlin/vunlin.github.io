@@ -13,15 +13,29 @@
 
   <body>
     <div class="container">
-      <nav>
-        <a href="/index">最新动态</a>
+      <nav class="nav_main">
+        <a href="/index">最新</a>
         <a href="/english/">英语</a>
         <a href="/code/">代码</a>
+        <a href="/fun/">玩物</a>
         <a href="/support">资助</a>
       </nav>
-      <section id="main_content">
-        {{ content }}
-      </section>                      
+      <nav class="nav_sub">
+        <section class="box">
+          <h4>子节点</h4>
+          <ul>
+            <li>音乐[33]</li>
+            <li>电影[584]</li>
+            <li>书籍[8]</li>
+            <li>漫画[4]</li>
+            <li>阅读[51]</li>
+          </ul>
+        </section>
+      </nav>
+      <div id="main_content">
+        <?php echo $my_html; ?>
+      </div>
+      <div class="clear"></div>
     </div>
 
     <script>

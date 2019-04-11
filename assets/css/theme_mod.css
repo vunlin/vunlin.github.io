@@ -34,10 +34,6 @@ a:hover {
 	height: 100%;
 }
 
-.container {
-	max-width:800px;
-}
-
 :target {
 	width:95%;
 	height:3px;
@@ -45,6 +41,26 @@ a:hover {
 	animation: highlight 10s ease;   
 	animation-fill-mode: forwards;  
 }
+.container {
+	max-width:800px;
+}
+.container * {max-width:99%;}
+
+
+#main_content {float:left; width:72%;}
+.nav_sub {float:right; width:25%; padding-right:10px;}
+.clear {clear:both;}
+.box {border:1px solid #ccc; background-color: #333;}
+ul, ol {margin:0px; padding:0px;}
+ul li {list-style: none;}
+#main_content > ol li {
+	list-style: none;
+	display:block;
+	border:1px solid #555;
+	background-color: #333;
+	padding:3px;
+}
+
 @keyframes highlight {
   0% { 	background:red; }
   100% { background:orange; }
