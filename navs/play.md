@@ -7,3 +7,4 @@
 <div class="videoWrapper">
 	<iframe width="1519" height="554" src="https://www.youtube.com/embed/okaysVWEn-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+1. [翻译]"小气"的英语怎么说 - uptight, difficult, nit-picking
