@@ -7,10 +7,10 @@
 
 #### Full page
 1. 标题
-1. 代码步骤
-1. 代码重点
-1. demo: codepen/lab link
-1. 源代码解析
+1. 代码步骤和重点 | github gist 链接 (源代码解析)
+1. demo: codepen
+1. 有用知识 (optional) + lab link
+
 
 ### English - translation
 
