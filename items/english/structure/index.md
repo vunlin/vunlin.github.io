@@ -18,7 +18,8 @@
 
 #### 动词变形
 
-1. 不定式 (to + v): 不一定什么词类 - 名词/形容词/副词 --- **常见句型** is adj to verb (is able/likely/enough to do/work/)
+1. 不定式 (to + v): 不一定什么词类 - 名词/形容词/副词 --- 
+	to 转换为 (and)
 2. 动名词 (v + ing): 名词
 3. 现在分词 (Be + v + ing): 形容词
 4. 过去分词 (v + ed): 形容词
@@ -43,4 +44,13 @@
 1. 使役动词的后面接原形动词: have/make/leave/get/keep/let/help/etc...
 2. 感官动词的后面接原形动词: see/hear/watch/smell/etc...
 3. SVOC 之外的词类和其短语 都是用以修饰 SVOC: 冠词/限定词/形容词/副词/介词
-4. 英语经常使用倒装来突出重点内容，五种基本句型 SVOC 不一定正确排列，但每一部分都不会缺少
+4. 英语经常使用倒装来突出重点内容，五种基本句型 SVOC 不一定正确排列，但每一部分都不会缺少  
+	1. dishes are called mega 倒装-> they call dishes mega (SVOC)
+	1. you are expected to clean your plate -> they expect you to clean your plate (SVOC)
+	1. with diagnoses (which are) expected to soar as the population ages - > people expect diagnoses to soar (SVOC 省略加上倒装 - Gosh)
+
+#### 其他其他
+1. Have fun trying to finish these -> (SVOO) (you should) (Have) (fun) with (trying to finish these)
+1. (I wish you) Good Luck (with/for) Eating this Ridiculously Large Sushi All By Yourself
+1. I wouldn't make much (money) curing her -> SVOO
+
